@@ -14,3 +14,11 @@ a {
 * {
   box-sizing: border-box;
 }
+
+html { 
+  background: url('../public/img.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
