@@ -2,6 +2,7 @@ import React from 'react'
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
+import Image from 'next/image'
 
 function CustomNavbar() {
     return (
@@ -9,11 +10,11 @@ function CustomNavbar() {
           <Navbar className="navBar" bg="dark" variant="dark" expand="sm">
             <Container className="innerNavbarContainer">
               <Navbar.Brand href="/">
-                <img
+                <Image
                   alt=""
                   src="/Gold Ore.png"
-                  width="30"
-                  height="30"
+                  width={30}
+                  height={30}
                   className="d-inline-block align-top"
                 />{" "}
                 NatureDAO
