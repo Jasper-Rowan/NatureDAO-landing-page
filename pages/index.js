@@ -22,6 +22,14 @@ export default function Home() {
           crossOrigin="anonymous"
         />
       </Head>
+      <div className={styles.bgWrap}>
+      <Image
+        src="/img.jpg"
+        layout="fill"
+        objectFit="cover"
+        quality={100}
+      />
+    </div>
 
       <Container className={styles.main_window} fluid>
         <Row className={styles.rows}>
