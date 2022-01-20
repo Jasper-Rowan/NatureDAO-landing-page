@@ -1,11 +1,13 @@
 .main_window{
-  color: rgb(255, 255, 255);
+  color: rgb(252, 251, 251);
   position: fixed;
+  top: 0px;
   z-index: 1;
+  background-color: rgba(97, 177, 68, 0.2);
 }
 
 .rows {
-  height: 33.3vh;
+  min-height: 33.3vh;
 }
 
 .cols {

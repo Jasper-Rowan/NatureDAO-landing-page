@@ -22,3 +22,15 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+.navBar {
+  position: fixed;
+  top: 0px;
+  border-radius: 33px;
+  width: 90vw;
+  margin: 10px 5vw;
+}
+
+.innerNavbarContainer {
+  margin: 0;
+}

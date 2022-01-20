@@ -6,7 +6,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Stack from 'react-bootstrap/Stack';
-// import CustomNavbar from '../components/CustomNavbar';
+import CustomNavbar from '../components/CustomNavbar';
 
 export default function Home() {
   return (
@@ -25,6 +25,7 @@ export default function Home() {
 
       <Container className={styles.main_window} fluid>
         <Row className={styles.rows}>
+          <CustomNavbar />
           <Col className={styles.cols}>1</Col>
           <Col className={styles.cols}>2</Col>
           <Col className={styles.cols}>3</Col>
