@@ -8,16 +8,29 @@
   position: fixed;
   top: 0px;
   z-index: 1;
-  background-color: rgba(97, 177, 68, 0.2);
 }
 
 .rows {
   min-height: 33.3vh;
+  border: solid;
 }
 
 .cols {
   border: solid;
 }
+
+.row2 {
+  border: solid;
+  min-height: 33.3vh;
+  align-items: center;
+}
+
+.title {
+  font-size: 5.9vw;
+  display: flex;
+  justify-content: center;
+}
+
 
 /* Css for the div wrapping the next-image 
  * compnonet. The purpose is to fix the image 
@@ -26,7 +39,7 @@
  * top of this image by default. */
  
 .bgWrap {
-  position: fixed;
+  position: relative;
   height: 100vh;
   width: 100vw;
   overflow: hidden;
