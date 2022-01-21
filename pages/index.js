@@ -36,13 +36,13 @@ export default function Home() {
           </h1>
         </Row>
         <Row className={styles.row3}>
-          <Col className={styles.cols} xs={12} sm={true}>
+          <Col className={styles.col1} xs={12} sm={true}>
             <h2>
               Merging the <strong>security</strong> and flexibility of cryptocurrency with 
               the <strong>trust</strong> and legacy of gold.{" "}
             </h2>
           </Col>
-          <Col className={styles.cols} xs={12} sm={true}>
+          <Col className={styles.col2} xs={12} sm={true}>
             <p className={styles.paragraph}>
               Monetize your gold reserves in a fraction of the time, at a
               fraction of the cost, all with zero environmental impact. Learn
