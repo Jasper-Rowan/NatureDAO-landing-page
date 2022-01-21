@@ -27,25 +27,32 @@ export default function Home() {
       </div>
 
       <Container className={styles.main_window} fluid>
-        <Row className={styles.rows}>
-          1
+        <Row className={styles.row1}>
           <CustomNavbar />
         </Row>
-        <Row className={styles.rows, styles.row2}>
-          
+        <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
           </h1>
         </Row>
-        <Row className={styles.rows}>
+        <Row className={styles.row3}>
           <Col className={styles.cols} xs={12} sm={true}>
-            2
+            <h2>
+              Merging the <strong>security</strong> and flexibility of cryptocurrency with 
+              the <strong>trust</strong> and legacy of gold.{" "}
+            </h2>
           </Col>
           <Col className={styles.cols} xs={12} sm={true}>
-            3
+            <p className={styles.paragraph}>
+              Monetize your gold reserves in a fraction of the time, at a
+              fraction of the cost, all with zero environmental impact. Learn
+              how the Eco-vault is democratizing access to gold-backed reserves.
+            </p>
           </Col>
         </Row>
       </Container>
+
+      <div></div>
     </div>
   );
 }
