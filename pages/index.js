@@ -52,7 +52,31 @@ export default function Home() {
         </Row>
       </Container>
 
-      <div></div>
+      <Container  fluid>
+        <Row className={styles.row1}>
+          <CustomNavbar />
+        </Row>
+        <Row className={styles.row2}>
+          <h1 className={styles.title}>
+            <strong>GOLD X CRYPTO</strong>
+          </h1>
+        </Row>
+        <Row className={styles.row3}>
+          <Col className={styles.col1} xs={12} sm={true}>
+            <h2>
+              Merging the <strong>security</strong> and flexibility of cryptocurrency with 
+              the <strong>trust</strong> and legacy of gold.{" "}
+            </h2>
+          </Col>
+          <Col className={styles.col2} xs={12} sm={true}>
+            <p className={styles.paragraph}>
+              Monetize your gold reserves in a fraction of the time, at a
+              fraction of the cost, all with zero environmental impact. Learn
+              how the Eco-vault is democratizing access to gold-backed reserves.
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
