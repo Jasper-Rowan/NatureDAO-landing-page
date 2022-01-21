@@ -72,11 +72,27 @@
 @media (max-width: 576px) {
   .row1 {
     border: var(--border-status);
-    min-height: 13.3vh;
+    min-height: 23.3vh;
+  }
+
+  .row2 {
+    align-items: flex-end;
   }
 
   .row3 {
-    min-height: 63.3vh;
+    min-height: 53.3vh;
+  }
+
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border: var(--border-status);
+  }
+
+  .title {
+    font-size: 8.9vw;
   }
 
   .paragraph {
