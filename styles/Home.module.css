@@ -45,6 +45,7 @@
 
 .title {
   font-size: 5.9vw;
+  font-weight: Extra-bold;
   display: flex;
   justify-content: center;
 }
