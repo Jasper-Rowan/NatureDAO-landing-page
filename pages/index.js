@@ -5,7 +5,6 @@ import styles from '../styles/Home.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Stack from 'react-bootstrap/Stack';
 import CustomNavbar from '../components/CustomNavbar';
 
 export default function Home() {
@@ -26,10 +25,9 @@ export default function Home() {
         <Image src="/img.jpg" layout="fill" objectFit="cover" quality={100} />
       </div>
 
+      <CustomNavbar />
       <Container className={styles.main_window} fluid>
-        <Row className={styles.row1}>
-          <CustomNavbar />
-        </Row>
+        <Row className={styles.row1}></Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
@@ -38,25 +36,22 @@ export default function Home() {
         <Row className={styles.row3}>
           <Col className={styles.col1} xs={12} sm={true}>
             <h2>
-              Merging the <strong>security</strong> and flexibility of cryptocurrency with 
-              the <strong>trust</strong> and legacy of gold.{" "}
+              Merging the <strong>security</strong> and flexibility of
+              cryptocurrency with the <strong>trust</strong> and legacy of gold.{" "}
             </h2>
           </Col>
           <Col className={styles.col2} xs={12} sm={true}>
             <p className={styles.paragraph}>
               Monetize your gold reserves in a fraction of the time, at a
-              fraction of the cost. Learn
-              how the Eco-vault is democratizing access to gold-backed reserves.
-
+              fraction of the cost. Learn how the Green-vault is democratizing
+              access to gold-backed reserves.
             </p>
           </Col>
         </Row>
       </Container>
 
-      <Container  fluid>
-        <Row className={styles.row1}>
-          <CustomNavbar />
-        </Row>
+      <Container fluid>
+        <Row className={styles.row1}></Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
@@ -65,8 +60,8 @@ export default function Home() {
         <Row className={styles.row3}>
           <Col className={styles.col1} xs={12} sm={true}>
             <h2>
-              Merging the <strong>security</strong> and flexibility of cryptocurrency with 
-              the <strong>trust</strong> and legacy of gold.{" "}
+              Merging the <strong>security</strong> and flexibility of
+              cryptocurrency with the <strong>trust</strong> and legacy of gold.{" "}
             </h2>
           </Col>
           <Col className={styles.col2} xs={12} sm={true}>
@@ -78,6 +73,19 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+
+      <footer className={styles.footer}>
+        <a
+          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Powered by{" "}
+          <span className={styles.logo}>
+            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
+          </span>
+        </a>
+      </footer>
     </div>
   );
 }

@@ -1,3 +1,5 @@
+/* A Css variable used to toggle the visual grid on
+ * and off. */
 .main_window {
   --border-status: none;
 }
@@ -69,6 +71,31 @@
   overflow: hidden;
   z-index: -1;
 }
+
+.footer {
+  display: flex;
+  flex: 1;
+  padding: 2rem 0;
+  border-top: 1px solid #eaeaea;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo {
+  height: 1em;
+  margin-left: 0.5rem;
+}
+
+/* This media query is set to activate when the 
+ * the react boot strap grid elemes re-organize 
+ * which is when the page width = xs or 576px. */
 
 @media (max-width: 576px) {
   .row1 {
