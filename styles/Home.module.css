@@ -7,7 +7,7 @@
  * 3 rows each taking up 1/3 of the viewport 
  * height. */
 
-.main_window{
+.main_window {
   color: rgb(255, 255, 255);
   position: absolute;
   top: 0px;
@@ -54,6 +54,17 @@
   margin-top: 25px;
 }
 
+.c1 {
+  border: solid; 
+  border-color: black;
+  min-height: 50vh;
+}
+
+.r1 {
+  border: solid; 
+  border-color: black;
+  min-width: 50vw;
+}
 
 /* Css for the div wrapping the next-image 
  * compnonet. The purpose is to fix the image 
