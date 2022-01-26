@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import { ScrollContainer, ScrollPage, Animator, Sticky } from 'react-scroll-motion';
+//  import { ScrollContainer, ScrollPage, Animator, Sticky } from 'react-scroll-motion';
 
 
 export default function Home() {
@@ -12,8 +12,6 @@ export default function Home() {
     <div>
 
       <Container className={styles.main_window} fluid>
-        <Row className={styles.row1}>
-        </Row>
         <Row className={styles.row1}></Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
@@ -37,22 +35,22 @@ export default function Home() {
         </Row>
       </Container>
 
-//       <Container fluid>
-//          <Row className={styles.r1}>
-//            <Col className={styles.c1}>
-//              {/* <ScrollContainer> 
-//                <ScrollPage page={0}> 
-//                <Animator animation={Sticky()}> 
+       <Container fluid>
+          <Row className={styles.r1}>
+            <Col className={styles.c1}>
+              {/* <ScrollContainer>  */}
+                {/* <ScrollPage page={0}> 
+                <Animator animation={Sticky()}> 
 
-//                   <h1>  </h1> 
+                   <h1>  </h1> 
 
-//                </Animator>
-//                </ScrollPage> 
-//              </ScrollContainer> */}
-//            </Col>
-//          </Row>
-//        </Container>
-        <Row className={styles.row1}></Row>
+                </Animator>
+                </ScrollPage> 
+              </ScrollContainer> */}
+            </Col>
+          </Row>
+        </Container>
+        {/* <Row className={styles.row1}></Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
@@ -73,7 +71,7 @@ export default function Home() {
             </p>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }
