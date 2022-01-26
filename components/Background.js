@@ -5,7 +5,7 @@ const Background = () => {
   return (
     <>
       <div className={styles.bgWrap}>
-        <Image src="/img.jpg" layout="fill" objectFit="cover" quality={100} />
+        <Image src="/mine.png" layout="fill" objectFit="cover" quality={100} />
       </div>
     </>
   );

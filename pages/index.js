@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import { ScrollContainer, ScrollPage, Animator, Sticky } from 'react-scroll-motion';
 
 export default function Home() {
   return (
@@ -37,12 +38,15 @@ export default function Home() {
       <Container fluid>
          <Row className={styles.r1}>
            <Col className={styles.c1}>
-           </Col>
+             {/* <ScrollContainer> 
+               <ScrollPage page={0}> 
+               <Animator animation={Sticky()}> 
 
-           <Col className={styles.c1}>
-           </Col>
+                  <h1>  </h1> 
 
-           <Col className={styles.c1}>
+               </Animator>
+               </ScrollPage> 
+             </ScrollContainer> */}
            </Col>
          </Row>
        </Container>

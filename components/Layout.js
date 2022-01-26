@@ -1,9 +1,8 @@
 import CustomNavbar from "./CustomNavbar";
 import Footer from "./Footer";
-import styles from "../styles/Layout.module.css";
-import Image from "next/image";
 import Head from "next/head";
 import Background from "./Background";
+
 
 const Layout = ({ children }) => {
   return (
@@ -19,7 +18,7 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         />
       </Head>
-      <Background />
+      <Background /> 
       <CustomNavbar />
       {children}
       <Footer />
