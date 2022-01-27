@@ -1,7 +1,7 @@
 /* A Css variable used to toggle the visual grid on
  * and off. */
 .main_window {
-  --border-status: none;
+  --border-status: solid;
   --border-color: red;
 }
 
@@ -136,10 +136,5 @@
 
   .title {
     font-size: 8.9vw;
-  }
-
-  .paragraph {
-    text-align: right;
-    margin-top: 0%;
   }
 }
