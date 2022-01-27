@@ -2,6 +2,7 @@
  * and off. */
 .main_window {
   --border-status: none;
+  --border-color: red;
 }
 
 /* CSS used to build the responsive Grid. 
@@ -10,26 +11,42 @@
  * height. */
 
 .main_window {
-  color: rgb(255, 255, 255);
-  position: absolute;
+  color: #ffffff;
+  position: relative;
   top: 0px;
-  z-index: 1;
+  z-index: 0;
+}
+
+.row0 {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  min-height: 57px;
 }
 
 .row1 {
   border: var(--border-status);
-  min-height: 23.3vh;
+  border-color: var(--border-color);
+  min-height: 53.3vh;
+}
+
+.img {
+  margin-top: 12px;
+  width: 85vw;
+  margin-right: 7.5vw;
+  margin-left: 7.5vw;
 }
 
 .row2 {
   border: var(--border-status);
-  min-height: 23.3vh;
+  border-color: var(--border-color);
+  min-height: 53.3vh;
   align-items: center;
 }
 
 .row3 {
   border: var(--border-status);
-  min-height: 53.3vh;
+  border-color: var(--border-color);
+  min-height: 33.3vh;
  
 }
 
@@ -37,12 +54,14 @@
   display: flex;
   align-items: center;
   border: var(--border-status);
+  border-color: var(--border-color);
 }
 
 .col2 {
   display: flex;
   align-items: center;
   border: var(--border-status);
+  border-color: var(--border-color);
 }
 
 .title {
@@ -50,11 +69,12 @@
   font-weight: Extra-bold;
   display: flex;
   justify-content: center;
+  margin-top: 40px;
 }
 
 .paragraph {
-  text-align: right;
-  margin-top: 25px;
+  /* text-align: right; */
+  margin: 80px;
 }
 
 .c1 {
@@ -92,11 +112,13 @@
 @media (max-width: 576px) {
   .row1 {
     border: var(--border-status);
+  border-color: var(--border-color);
     min-height: 23.3vh;
   }
 
   .row2 {
-    align-items: flex-end;
+    align-items: center;
+    min-height: 23.3vh;
   }
 
   .row3 {
@@ -109,6 +131,7 @@
     justify-content: flex-end;
 
     border: var(--border-status);
+  border-color: var(--border-color);
   }
 
   .title {

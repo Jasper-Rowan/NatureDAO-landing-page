@@ -7,8 +7,6 @@ function Footer() {
     return (
       <>
         <footer className={styles.footer}>
-          <a href="/" target="_blank" rel="noopener noreferrer">Connect with us{" "}</a>
-          
           <span className={styles.social_media}>
            <a href="https://github.com/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.icon} icon={faGithub} /></a> 
            <a href="https://twitter.com/?lang=en" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.icon} icon={faTwitter} /></a> 

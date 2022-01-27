@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import Container from 'react-bootstrap/Container';
@@ -9,10 +10,12 @@ import Col from 'react-bootstrap/Col';
 
 export default function Home() {
   return (
-    <div>
-
+    <>
       <Container className={styles.main_window} fluid>
-        <Row className={styles.row1}></Row>
+        <Row className={styles.row0}></Row>
+        <Row className={styles.row1}>
+          <img className={styles.img} src="/evmos.png" />
+        </Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
@@ -20,7 +23,7 @@ export default function Home() {
         </Row>
         <Row className={styles.row3}>
           <Col className={styles.col1} xs={12} sm={true}>
-            <h2>
+            <h2 className={styles.paragraph}>
               Merging the <strong>security</strong> and flexibility of
               cryptocurrency with the <strong>trust</strong> and legacy of gold.{" "}
             </h2>
@@ -35,22 +38,22 @@ export default function Home() {
         </Row>
       </Container>
 
-       <Container fluid>
+      {/* <Container fluid>
           <Row className={styles.r1}>
             <Col className={styles.c1}>
-              {/* <ScrollContainer>  */}
-                {/* <ScrollPage page={0}> 
+              <ScrollContainer> 
+                <ScrollPage page={0}> 
                 <Animator animation={Sticky()}> 
 
                    <h1>  </h1> 
 
                 </Animator>
                 </ScrollPage> 
-              </ScrollContainer> */}
+              </ScrollContainer>
             </Col>
           </Row>
-        </Container>
-        {/* <Row className={styles.row1}></Row>
+        </Container> */}
+      {/* <Row className={styles.row1}></Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
@@ -72,6 +75,6 @@ export default function Home() {
           </Col>
         </Row>
       </Container> */}
-    </div>
+    </>
   );
 }

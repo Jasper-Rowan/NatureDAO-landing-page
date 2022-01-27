@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
           crossOrigin="anonymous"
         />
       </Head>
-      <Background /> 
+      
       <CustomNavbar />
       {children}
       <Footer />

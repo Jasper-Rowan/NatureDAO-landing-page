@@ -7,7 +7,7 @@ import styles from '../styles/NavBar.module.css';
 function CustomNavbar() {
     return (
         <div>
-          <Navbar className={styles.navbar} bg="white" variant="light" expand="sm">
+          <Navbar className={styles.navbar} bg="black" variant="dark" expand="sm">
             <Container className={styles.innerNavBar}>
               <Navbar.Brand href="/">
                 <img
