@@ -1,7 +1,7 @@
 /* A Css variable used to toggle the visual grid on
  * and off. */
 .main_window {
-  --border-status: solid;
+  --border-status: none;
   --border-color: red;
 }
 
