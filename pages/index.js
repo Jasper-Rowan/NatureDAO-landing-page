@@ -14,7 +14,7 @@ export default function Home() {
       <Container className={styles.main_window} fluid>
         <Row className={styles.row0}></Row>
         <Row className={styles.row1}>
-          <img className={styles.img} src="/evmos.png" />
+          <img className={styles.img} src="/GoldGif.gif" />
         </Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
