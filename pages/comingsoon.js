@@ -1,18 +1,25 @@
 import React from 'react'
-import Head from 'next/head'
-import CustomNavbar from "../components/CustomNavbar";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row'
+import styles from '../styles/ComingSoon.module.css'
 
 
 export default function ComingSoon() {
 
     return (
       <>
-        <CustomNavbar />
-        <div className="styles.container1">
-          <h1>
-            <strong className="styles.inner">COMING SOON</strong>
-          </h1>
-        </div>
+        <Container className={styles.main_window} fluid>
+          <Row className={styles.row0}></Row>
+          <Row className={styles.row1}>
+            <img className={styles.img} src="/GoldGif.gif" />
+          </Row>
+          <Row className={styles.row2}>
+            <h1 className={styles.text} >
+              <strong >COMING SOON</strong>
+            </h1>
+          </Row>
+        </Container>
+        <div className="styles.container1"></div>
       </>
     );
 }

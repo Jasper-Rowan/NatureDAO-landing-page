@@ -22,13 +22,13 @@ export default function Home() {
         <Row className={styles.row3}>
           <Col className={styles.col1} xs={12} sm={true}>
             <Row>
-            <h6 className={styles.mission}>Our mission</h6>
+              <h6 className={styles.mission}>Our mission</h6>
               <h2 className={styles.paragraph}>
                 By digitizing the{" "}
                 <strong className={styles.highlighted}>conservation</strong>{" "}
                 rights of unmined{" "}
-                <strong className={styles.highlighted}>gold</strong>
-                {" "}we are making environmental preservation{" "}
+                <strong className={styles.highlighted}>gold</strong> we are
+                making environmental preservation{" "}
                 <strong className={styles.highlighted}>profitable</strong>.{" "}
               </h2>
             </Row>
