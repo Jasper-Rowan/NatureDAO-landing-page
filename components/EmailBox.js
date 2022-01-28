@@ -15,22 +15,25 @@ export default function EmailBox() {
       body: JSON.stringify(data),
     });
     console.log(data);
+    e.target.reset();
   };
 
   return (
     <div className={styles.EmailBox}>
       <form onSubmit={handleSubmit} className={styles.textBox}>
-        <label htmlFor="email" ></label>
-        <Box className={styles.formBackground}> 
-        <input
-          className={styles.formInput}
-          id="email"
-          type="email"
-          placeholder="type in your email for updates."
-          onChange={(e) => setEmail(e.target.value)}
-        />
-        <button className={styles.formButton} type="submit">Send</button>
-        </Box> 
+        <label htmlFor="email"></label>
+        <div className={styles.formBackground}>
+          <input
+            className={styles.formInput}
+            id="email"
+            type="email"
+            placeholder="type in your email for updates."
+            onChange={(e) => setEmail(e.target.value)}
+          />
+          <button className={styles.formButton} type="submit">
+            Send
+          </button>
+        </div>
       </form>
     </div>
   );
