@@ -17,7 +17,7 @@ function CustomNavbar() {
                   height="30"
                   className="d-inline-block align-top logo"
                 />{" "}
-                GreenVault
+                <strong>Green</strong>Vault
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
