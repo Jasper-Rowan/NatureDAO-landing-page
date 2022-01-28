@@ -18,3 +18,15 @@ a {
 * {
   box-sizing: border-box;
 }
+
+
+.form {
+  margin: 100px; 
+}
+
+input, select, textarea{
+  color: #919191;
+}
+textarea:focus, input:focus {
+  color: #919191;
+}

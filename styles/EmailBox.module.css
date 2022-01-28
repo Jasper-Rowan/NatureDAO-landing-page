@@ -1,0 +1,31 @@
+.EmailBox {
+    display: flex;
+    justify-content: center;
+    z-index: 4;
+    outline: none; 
+    border: none; 
+    color: white
+} 
+
+.formInput {
+    outline: none; 
+    border: none;
+    background-color: rgb(44, 44, 44);
+    height: 50px;
+    width: 40vw;
+    text-align: center;
+    text-emphasis-color: white;
+}
+
+.formButton {
+    outline: none; 
+    border: none;
+    height: 50px;
+    width: 80px; 
+    background-color: rgb(44, 44, 44);
+    color: #c5c5c5;
+}
+
+.formBackground {
+    background-color: rgb(44, 44, 44);
+}
