@@ -16,7 +16,6 @@ export default function Home() {
           <img className={styles.img} src="/GoldGif.gif" />
         </Row>
         <Row className={styles.row2}>
-          <EmailBox/> 
           <h1 className={styles.title}>
             <strong>GOLD X CRYPTO</strong>
           </h1>
@@ -35,6 +34,7 @@ export default function Home() {
               access to gold-backed reserves.
             </p>
           </Col>
+          <EmailBox/> 
         </Row>
       </Container>
     </>

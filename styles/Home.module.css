@@ -121,6 +121,10 @@
   .row3 {
     min-height: 53.3vh;
   }
+  .paragraph {
+    /* text-align: right; */
+    margin: 20px;
+  }
 
   .col1 {
     display: flex;
@@ -133,5 +137,6 @@
 
   .title {
     font-size: 8.9vw;
+    margin-top: 20px;
   }
 }

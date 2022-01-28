@@ -29,3 +29,9 @@
 .formBackground {
     background-color: rgb(44, 44, 44);
 }
+
+@media (max-width: 576px) {
+    .formInput {
+        width: 60vw;
+    }
+}
