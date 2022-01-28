@@ -39,7 +39,7 @@
 .row2 {
   border: var(--border-status);
   border-color: var(--border-color);
-  min-height: 53.3vh;
+  min-height: 33.3vh;
   align-items: center;
 }
 
@@ -100,6 +100,10 @@
   width: 100vw;
   overflow: hidden;
   z-index: -1;
+}
+
+.highlighted:hover {
+  color: gold; 
 }
 
 /* This media query is set to activate when the 
