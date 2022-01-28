@@ -47,7 +47,6 @@
   border: var(--border-status);
   border-color: var(--border-color);
   min-height: 33.3vh;
- 
 }
 
 .col1 {
@@ -78,13 +77,13 @@
 }
 
 .c1 {
-  border: solid; 
+  border: solid;
   border-color: black;
   min-height: 50vh;
 }
 
 .r1 {
-  border: solid; 
+  border: solid;
   border-color: black;
   min-width: 50vw;
 }
@@ -94,7 +93,7 @@
  * to fix the screen and to set its z-index to 
  * -1 so that all other elements will render on 
  * top of this image by default. */
- 
+
 .bgWrap {
   position: relative;
   height: 100vh;
@@ -103,8 +102,6 @@
   z-index: -1;
 }
 
-
-
 /* This media query is set to activate when the 
  * the react boot strap grid elemes re-organize 
  * which is when the page width = xs or 576px. */
@@ -112,7 +109,7 @@
 @media (max-width: 576px) {
   .row1 {
     border: var(--border-status);
-  border-color: var(--border-color);
+    border-color: var(--border-color);
     min-height: 23.3vh;
   }
 
@@ -124,6 +121,10 @@
   .row3 {
     min-height: 53.3vh;
   }
+  .paragraph {
+    /* text-align: right; */
+    margin: 20px;
+  }
 
   .col1 {
     display: flex;
@@ -131,10 +132,11 @@
     justify-content: flex-end;
 
     border: var(--border-status);
-  border-color: var(--border-color);
+    border-color: var(--border-color);
   }
 
   .title {
     font-size: 8.9vw;
+    margin-top: 20px;
   }
 }

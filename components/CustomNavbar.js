@@ -12,7 +12,7 @@ function CustomNavbar() {
               <Navbar.Brand href="/">
                 <img
                   alt=""
-                  src="/Gold Ore.png"
+                  src="/GoldDAO_Ore.png"
                   width="30"
                   height="30"
                   className="d-inline-block align-top logo"
