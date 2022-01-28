@@ -27,7 +27,7 @@ export default function EmailBox() {
             className={styles.formInput}
             id="email"
             type="email"
-            placeholder="type in your email for updates."
+            placeholder="email me updates"
             onChange={(e) => setEmail(e.target.value)}
           />
           <button className={styles.formButton} type="submit">
