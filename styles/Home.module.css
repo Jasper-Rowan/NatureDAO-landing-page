@@ -113,6 +113,12 @@
     min-height: 23.3vh;
   }
 
+  .img {
+    width: 100vw;
+    margin-right: 0vw;
+    margin-left: 0vw;
+  }
+
   .row2 {
     align-items: center;
     min-height: 23.3vh;
