@@ -10,6 +10,7 @@ const Layout = ({ children }) => {
       <Head>
         <title>GreenVault</title>
         <meta name="description" content="The landing page for GreenVault the world leader in profitable conservation." />
+        <meta property="og:image" content="../public/GoldDAO_Ore.png"/>
         <link rel="icon" href="/GoldDAO_Ore.png" />
         <link
           rel="stylesheet"

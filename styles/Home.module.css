@@ -109,14 +109,13 @@
 }
 
 
-.highlighted:hover {
+/* .highlighted:hover {
   color: gold;  
   background-image: url('/goldflake.png');
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
-  
-}
+} */
 
 /* This media query is set to activate when the 
  * the react boot strap grid elemes re-organize 
