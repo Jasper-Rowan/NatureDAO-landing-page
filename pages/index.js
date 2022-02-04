@@ -35,13 +35,13 @@ export default function Home() {
           </Col>
           <Col className={styles.col2} xs={12} sm={true}>
             <p className={styles.paragraph}>
-              GreenVault is a new take on the worlds oldest asset class by{" "}
+              GreenVault is a new take on the world's oldest asset class by{" "}
               <strong className={styles.highlighted}>
                 tokenizing unmined gold
               </strong>
               . Proof of Work mining has detrimental negative effects on the
               environment however these effects are negligible compared to the
-              effects of real world precious metal mining. Currently{" "}
+              effects of real world precious metal mining. Currently,{" "}
               <strong className={styles.highlighted}>60-80%</strong> of all
               mined gold goes directly into a vault where it sits indefinitely
               transacted solely using TradFi. We propose a more{" "}
@@ -54,7 +54,7 @@ export default function Home() {
               selling them, we can create a{" "}
               <strong className={styles.highlighted}>
                 profit motive for conservation
-              </strong>{" "}
+              </strong>
               .
             </p>
           </Col>
