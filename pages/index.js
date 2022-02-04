@@ -35,7 +35,7 @@ export default function Home() {
           </Col>
           <Col className={styles.col2} xs={12} sm={true}>
             <p className={styles.paragraph}>
-              GreenVault is a new take on the world's oldest asset class by{" "}
+              GreenVault is a new take on the world&apos;s oldest asset class by{" "}
               <strong className={styles.highlighted}>
                 tokenizing unmined gold
               </strong>
