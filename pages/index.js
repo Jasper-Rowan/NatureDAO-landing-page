@@ -16,7 +16,7 @@ export default function Home() {
         </Row>
         <Row className={styles.row2}>
           <h1 className={styles.title}>
-            <strong>GOLD X CRYPTO</strong>
+            <strong>GOLD <span className={styles.X}>X</span> CRYPTO</strong>
           </h1>
         </Row>
         <Row className={styles.row3}>
