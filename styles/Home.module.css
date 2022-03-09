@@ -3,6 +3,7 @@
 .main_window {
   --border-status: none;
   --border-color: red;
+  --border-color-mq: blue
 }
 
 /* CSS used to build the responsive Grid. 
@@ -35,10 +36,10 @@
 }
 
 .img {
-  margin-top: 12px;
-  width: 85vw;
-  margin-right: 7.5vw;
-  margin-left: 7.5vw;
+  width: 100vw;
+  margin-right: 0vw;
+  margin-left: 0vw;
+  padding: 0px;
 }
 
 .row2 {
@@ -56,14 +57,13 @@
 
 .col1 {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   border: var(--border-status);
   border-color: var(--border-color);
 }
 
 .col2 {
   display: flex;
-  align-items: center;
   border: var(--border-status);
   border-color: var(--border-color);
 }
@@ -76,28 +76,23 @@
   margin-top: 40px;
 }
 
+/* .t {
+  border: solid;
+  border-color: greenyellow;
+} */
+
 
 .mission{
-  margin-left: 80px;
-  margin-bottom: -40px;
+  margin-left: 60px;
   color: rgba(199, 169, 104, 0.747);
 }
 
 .paragraph {
   /* text-align: right; */
-  margin: 80px;
+  margin: 0px 60px;
 }
 
-.c1 {
-  border: solid;
-  border-color: black;
-  min-height: 50vh;
-}
 
-.r1 {
-  border: solid;
-  border-color:coral; 
-}
 
 /* Css for the div wrapping the next-image 
  * compnonet. The purpose is to fix the image 
@@ -126,18 +121,14 @@
  * the react boot strap grid elemes re-organize 
  * which is when the page width = xs or 576px. */
 
-@media (max-width: 576px) {
+@media (max-width: 1199px) {
   .row1 {
     border: var(--border-status);
-    border-color: var(--border-color);
+    border-color: var(--border-color-mq);;
     min-height: 23.3vh;
   }
 
-  .img {
-    width: 100vw;
-    margin-right: 0vw;
-    margin-left: 0vw;
-  }
+  
 
   .row2 {
     align-items: center;
@@ -147,13 +138,14 @@
   .row3 {
     min-height: 53.3vh;
   }
+
+  .mission {
+    margin-left: 20px;
+  }
+
   .paragraph {
     /* text-align: right; */
     margin: 20px;
-  }
-  .mission{
-    margin-left: 20px;
-    color: transparent; 
   }
 
   .col1 {
@@ -162,7 +154,7 @@
     justify-content: flex-end;
 
     border: var(--border-status);
-    border-color: var(--border-color);
+    border-color: var(--border-color-mq);
   }
 
   .title {
