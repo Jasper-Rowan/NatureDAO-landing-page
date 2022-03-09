@@ -20,9 +20,12 @@ export default function Home() {
           </h1>
         </Row>
         <Row className={styles.row3}>
-          <Col className={styles.col1} xs={12} sm={true}>
-            <Row>
+          <Col className={styles.col1} xs={12} xl={true}>
+             
               <h6 className={styles.mission}>Our mission</h6>
+              
+
+              
               <h2 className={styles.paragraph}>
                 By digitizing the{" "}
                 <strong className={styles.highlighted}>conservation</strong>{" "}
@@ -31,9 +34,9 @@ export default function Home() {
                 making environmental preservation{" "}
                 <strong className={styles.highlighted}>profitable</strong>.{" "}
               </h2>
-            </Row>
+            
           </Col>
-          <Col className={styles.col2} xs={12} sm={true}>
+          <Col className={styles.col2} xs={12} xl={true}>
             <p className={styles.paragraph}>
               GreenVault is a new take on the world&apos;s oldest asset class by{" "}
               <strong className={styles.highlighted}>
