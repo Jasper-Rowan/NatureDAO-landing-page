@@ -1,4 +1,3 @@
-import CustomNavbar from '../components/CustomNavbar'
 import Layout from '../components/Layout'
 import '../styles/globals.css'
 
