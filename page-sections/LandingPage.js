@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "../styles/LandingPage.module.css";
 
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
