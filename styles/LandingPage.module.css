@@ -23,12 +23,6 @@
   z-index: 0;
 }
 
-.row0 {
-  border: var(--border-status);
-  border-color: var(--border-color);
-  min-height: 57px;
-}
-
 .row1 {
   border: var(--border-status);
   border-color: var(--border-color);

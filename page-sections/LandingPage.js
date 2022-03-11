@@ -8,7 +8,6 @@ import EmailBox from "../components/EmailBox";
 const LandingPage = () => {
   return (
     <Container className={styles.main_window} fluid>
-      <Row className={styles.row0}></Row>
       <Row className={styles.row1}>
         <img className={styles.img} src="/GoldGif.gif" />
       </Row>
