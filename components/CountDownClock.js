@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Countdown from 'react-countdown';
+import styles from '../styles/CountDownClock.module.css';
 
 const CountDownClock = () => {
     
@@ -15,10 +16,13 @@ const CountDownClock = () => {
         return <Completionist />;
       } else {
         return (
-          <div style={{backgroundColor: "white"}}>
-            <span>
-              {days}:{hours}:{minutes}:{seconds}
-            </span>
+          <div className={styles.divParent}>
+            <div className={styles.divChild}>
+              <p className={styles.p}>ORE token sale begins in :</p>
+              <span className={styles.span}>
+                {days} {hours} {minutes} {seconds}
+              </span>
+            </div>
           </div>
         );
       }

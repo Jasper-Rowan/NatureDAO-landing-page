@@ -1,0 +1,29 @@
+.divParent{
+    background-color: wheat;
+    
+}
+
+.divChild {
+    border: solid;
+    border-color: red;
+    width: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 44px 30px 40px;
+    background: #272C44;
+    border-radius: 10px;
+}
+
+.p {
+  
+    color: white;
+}
+
+.span {
+    border: none;
+    font-weight: large;
+    font-size: 3em;
+    color: #E5C641;
+}
