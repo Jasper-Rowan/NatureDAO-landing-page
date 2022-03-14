@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import styles from "../styles/LandingPage.module.css";
 
 export default function Form() {
   const [name, setName] = useState("");
@@ -14,6 +14,7 @@ export default function Form() {
       email,
       message,
     };
+    
     fetch('/api/contact', {
         method: 'post',
         body: JSON.stringify(data),
