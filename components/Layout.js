@@ -21,6 +21,7 @@ const Layout = ({ children }) => {
       </Head>
       
       <CustomNavbar />
+      <div style={{ minHeight:57 }}></div>
       {children}
       <Footer />
     </div>

@@ -1,0 +1,49 @@
+
+/** 
+ * The Container div which holds 
+ * all components of the clock and
+ * provides the background color.
+ */
+.divContainer {
+    width: 436px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 44px 30px 40px;
+    background: #272C44;
+    border-radius: 10px;
+}
+
+.p {
+    color: white;
+}
+
+/** 
+ * A container for all boxes which
+ * aligns them horizontally.
+ */
+.span {
+ 
+    font-weight: large;
+    font-size: 4em;
+    color: #E5C641;
+    display: flex;
+}
+
+/**
+ * The box which surrounds each number and 
+ * the text which describes it used to aline 
+ * them as a column. 
+ */ 
+.box {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.text {
+    font-size: 14px;
+    color: #9399BC;
+    margin: auto;
+}
