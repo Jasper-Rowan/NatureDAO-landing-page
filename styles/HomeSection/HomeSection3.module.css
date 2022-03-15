@@ -1,8 +1,8 @@
 .main_window {
-    --border-status: solid;
+    --border-status: none;
     --border-color: red;
     --border-color-mq: blue;
-    height: 60vh; 
+    height: 65vh; 
   }
 
 .row1 {
@@ -11,11 +11,19 @@
     color: white;
     height: 12vh; 
     align-items: center;
+    margin-left: 1vw;
     
 }
 
 .row2 {
     border: var(--border-status);
     border-color: var(--border-color);
-    height: 48vh;
+    height: 53vh;
+}
+
+.col {
+    border: var(--border-status);
+    border-color: var(--border-color);
+    display: flex;
+    justify-content: center;
 }
