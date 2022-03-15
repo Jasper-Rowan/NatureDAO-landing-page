@@ -1,0 +1,21 @@
+.main_window {
+    --border-status: solid;
+    --border-color: red;
+    --border-color-mq: blue;
+    height: 60vh; 
+  }
+
+.row1 {
+    border: var(--border-status);
+    border-color: var(--border-color);
+    color: white;
+    height: 12vh; 
+    align-items: center;
+    
+}
+
+.row2 {
+    border: var(--border-status);
+    border-color: var(--border-color);
+    height: 48vh;
+}
