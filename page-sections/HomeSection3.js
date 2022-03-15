@@ -27,7 +27,7 @@ const HomeSection3 = () => {
                     </Tile> 
                 </Col> 
                 <Col className={styles.col}> 
-                    <Tile image_link={"/GoldIcon.svg"} heading={"Security & control over money"} body={"Provide high levels of security allowing users to keep assets secure"}> 
+                    <Tile image_link={"/GoldIcon.svg"} heading={"Security & Control"} body={"Provide high levels of security allowing users to keep assets secure"}> 
                         
                     </Tile> 
                 </Col> 
