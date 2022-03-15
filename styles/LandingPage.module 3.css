@@ -1,0 +1,158 @@
+/* A Css variable used to toggle the visual grid on
+ * and off. */
+.main_window {
+  --border-status: none;
+  --border-color: red;
+  --border-color-mq: blue
+}
+
+/* CSS used to build the responsive Grid. 
+ * it consists of a main_window that contains 
+ * 3 rows each taking up 1/3 of the viewport 
+ * height. */
+
+ .X {
+    /* color: rgba(209,177,44,255); */
+    color: white;
+ }
+
+.main_window {
+  color: #ffffff;
+  position: relative;
+  top: 0px;
+  z-index: 0;
+}
+
+.row1 {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  min-height: 53.3vh;
+}
+
+.img {
+  width: 100vw;
+  margin-right: 0vw;
+  margin-left: 0vw;
+  padding: 0px;
+}
+
+.row2 {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  min-height: 33.3vh;
+  align-items: center;
+}
+
+.row3 {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  min-height: 33.3vh;
+}
+
+.col1 {
+  display: flex;
+  flex-direction: column;
+  border: var(--border-status);
+  border-color: var(--border-color);
+}
+
+.col2 {
+  display: flex;
+  border: var(--border-status);
+  border-color: var(--border-color);
+}
+
+.title {
+  font-size: 5.9vw;
+  font-weight: Extra-bold;
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* .t {
+  border: solid;
+  border-color: greenyellow;
+} */
+
+
+.mission{
+  margin-left: 60px;
+  color: rgba(199, 169, 104, 0.747);
+}
+
+.paragraph {
+  /* text-align: right; */
+  margin: 0px 60px;
+}
+
+
+
+/* Css for the div wrapping the next-image 
+ * compnonet. The purpose is to fix the image 
+ * to fix the screen and to set its z-index to 
+ * -1 so that all other elements will render on 
+ * top of this image by default. */
+
+.bgWrap {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+}
+
+
+/* .highlighted:hover {
+  color: gold;  
+  background-image: url('/goldflake.png');
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+} */
+
+/* This media query is set to activate when the 
+ * the react boot strap grid elemes re-organize 
+ * which is when the page width = xs or 576px. */
+
+@media (max-width: 1199px) {
+  .row1 {
+    border: var(--border-status);
+    border-color: var(--border-color-mq);;
+    min-height: 23.3vh;
+  }
+
+  
+
+  .row2 {
+    align-items: center;
+    min-height: 23.3vh;
+  }
+
+  .row3 {
+    min-height: 53.3vh;
+  }
+
+  .mission {
+    margin-left: 20px;
+  }
+
+  .paragraph {
+    /* text-align: right; */
+    margin: 20px;
+  }
+
+  .col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    border: var(--border-status);
+    border-color: var(--border-color-mq);
+  }
+
+  .title {
+    font-size: 8.9vw;
+    margin-top: 20px;
+  }
+}
