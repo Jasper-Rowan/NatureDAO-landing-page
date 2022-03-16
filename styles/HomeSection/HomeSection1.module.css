@@ -9,6 +9,7 @@
   
 }
 
+
 .row {
     min-height: 100vh;
 }
@@ -64,6 +65,10 @@
   font-weight: 500;
   font-size: 15px;
   line-height: 24px;
+}
+
+.progressBar{
+  margin-bottom: 60px;
 }
 
 .right_col {
