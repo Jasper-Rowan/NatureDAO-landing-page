@@ -28,7 +28,6 @@ const HomeSection1 = () => {
               <CustomProgressBar
                 bgcolor="#3772FF"
                 completed={35}
-                className={styles.CustomProgressBar}
               />
             </Col>
             <Col className={styles.right_col}>

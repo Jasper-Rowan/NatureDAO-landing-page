@@ -1,42 +1,46 @@
+import { position } from '@chakra-ui/react';
 import {useState, useEffect} from 'react';
+import {Container, Row, Col} from "react-bootstrap";
 
 const Tick = (props) => {
-    
-    const outerBox = {
-      display: 'flex',
-      flexDirection: 'column',
-      height: 10,
-      width: '100%',
-      position: 'relative',
-      bottom: 5
-    }
+  const tickDiv = {
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "space-evenly",
+    height: 70,
+    width: 150,
+    margin: 0,
+    padding: 0,
+    position: "relative",
+    bottom: 15,
+  };
 
-    const tick = {
-      height: '70%',
-      width: '50%',
-      border: 'solid',
-      borderColor: '#90A4FF'
-    }
+  const topRow = {
+    height: "60%",
+    width: "50%",
+    borderRight: "solid",
+    borderColor: "#90A4FF",
+    borderWidth: 1.5,
+    margin: 0,
+    padding: 0,
+  };
 
-    const text = {
-      color: 'blue',
-      height: '30%',
-      width: '100%',
-      border: 'solid',
-      borderColor: 'red'
-
-    }
-    return (
-      <>
-        <div styles={outerBox}>
-          <div styles={tick}>
-            <div styles={text}>
-              <p styles={{color: 'blue'}}>{props.children}</p>
-            </div>
-          </div>
-        </div>
-      </>
-    );
+  const bottomRow = {
+    height: "30%",
+    width: "100%",
+    display: "flex",
+    justifyContent: "center",
+    margin: 0,
+    padding: 0,
+  };
+  return (
+    <>
+      <Container fluid style={tickDiv}>
+        <Row style={topRow}></Row>
+        <Row style={bottomRow}>{props.name}</Row>
+      </Container>
+    </>
+  );
 };
 
 /**
@@ -57,18 +61,18 @@ const CustomProgressBar = (props) => {
     const boxStyles = {
       display: 'flex',
       flexDirection: 'column',
-      justifyContent: 'flex-end'
+      justifyContent: 'flex-end',
     }
 
     const topText = {
       display: 'flex',
-      justifyContent: 'space-between' 
+      justifyContent: 'space-between', 
     }
 
     const containerStyles = {
       height: 10,
       width: '100%',
-      backgroundColor: "#e0e0de",
+      background: 'rgb(44, 49, 75)',
       borderRadius: 50,
     }
   
@@ -97,20 +101,21 @@ const CustomProgressBar = (props) => {
       
     }
 
-    const tickDiv = {
-      display: 'flex',
-      justifyContent: 'space-around',
-      height: 500,
-      border: 'solid',
-      borderColor: 'red'
+    const tickBox = {
+        display: 'flex',
+        justifyContent: 'space-around'
     }
   
     return (
       <div style={boxStyles}>
-          <div style={topText}>
-              <p><span style={{color: '#9399BC'}}>Raised</span> - 1,450 Tokens</p>
-              <p><span style={{color: '#9399BC'}}>Target</span> - 150,000 Tokens</p>
-          </div>
+        <div style={topText}>
+          <p>
+            <span style={{ color: "#9399BC" }}>Raised</span> - 1,450 Tokens
+          </p>
+          <p>
+            <span style={{ color: "#9399BC" }}>Target</span> - 150,000 Tokens
+          </p>
+        </div>
 
         <div style={containerStyles}>
           <div style={fillerStyles}>
@@ -119,11 +124,11 @@ const CustomProgressBar = (props) => {
             </span>
           </div>
 
-            <div style={tickDiv}>
-                <Tick>Pre Sale</Tick>
-                <Tick>Soft Cap</Tick>
-                <Tick>Hard cap</Tick>
-            </div>
+          <div style={tickBox}>
+            <Tick name="Pre Sale" />
+            <Tick name="Soft Cap" />
+            <Tick name="Hard Cap" />
+          </div>
         </div>
       </div>
     );
