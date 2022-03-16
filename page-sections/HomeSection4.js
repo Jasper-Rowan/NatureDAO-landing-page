@@ -1,15 +1,39 @@
 import Carousel from "../components/Carousel";
 import CarouselItem from "../components/CarouselItem";
-import Tile from "../components/Tile";
+import CarouselTile from "../components/CarouselTile";
+import { Row } from "react-bootstrap";
+import styles from "../styles/HomeSection/HomeSection4.module.css";
 
 const Homesection4 = () => {
     return ( 
-        <div>
-             <Carousel>
-                <CarouselItem> <Tile image_link={"/BlueIcon.svg"} heading={"Liquidating Unmined Gold"} body={"Unmined gold has never been as valuable as it is right now"}/> </CarouselItem>
-                <CarouselItem> Item 2</CarouselItem>
-                <CarouselItem> Item 3</CarouselItem>
+        <div className={styles.main}>
+            <Row className={styles.row1}> 
+                <p className={styles.paragraph}>HOW IT WORKS</p>
+                <h1 className={styles.title}>Our cryptocurrency based on blockchain tokenomics</h1>
+            </Row>
+
+            <Row className={styles.row2}> 
+                <img className={styles.image} src="/HomeSection4 Icons.svg"/> 
+            </Row> 
+            
+            <Row> 
+            <Carousel>
+                <CarouselItem> 
+                    <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
+                    In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
+                </CarouselItem>
+
+                <CarouselItem>
+                    <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
+                    In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
+                </CarouselItem>
+
+                <CarouselItem> 
+                    <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
+                    In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
+                </CarouselItem>
             </Carousel>
+            </Row>
         </div>
     );
 }

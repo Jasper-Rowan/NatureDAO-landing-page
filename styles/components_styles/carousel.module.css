@@ -1,7 +1,7 @@
 .carousel {
     overflow: hidden;
-    height: 200px;
-    background-color: green;
+    height: 40vh;
+    background-color: #140E3A;
 }
 
 .inner {
@@ -13,9 +13,47 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    height: 200px;
-    background-color: green;
-    color: #fff;
+    min-height: 40vh;
+    /* color: #fff; */
+    transition: opacity 0.8s;
+    /* border: none;
+    border-color: white; */
+}
+
+.carousel_tile {
+    background-color: #292A47;
+    min-height: 34vh;
+    width: 43vw;
+    border-radius: 40px;
+    color: white; 
+    text-align: center;
+    /* border: solid;
+    border-color: red; */
+}
+
+.carousel_tile_title {
+    margin-top: 30px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.carousel_tile_body {
+    white-space: normal;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.col {
+    border: none;
+    border-color: red;
+    min-height: 40vh;
+}
+
+.row {
+    position: absolute;
+    z-index: 1;
+    width: 100vw;
+    margin-left: 0.1vw;
 }
 
 .indicators {
@@ -25,4 +63,5 @@
 
 .indicators > Button {
     margin: 5px; 
+    
 }

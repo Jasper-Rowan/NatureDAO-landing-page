@@ -1,0 +1,29 @@
+.main {
+    background-color: #140E3A;
+    height: 110vh;
+}
+
+
+.row1 {
+    height: 33vh;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.paragraph {
+    margin-top: 50px;
+}
+
+.image {
+    width: 50vw;
+}
+
+.title {
+    width: 50vw;
+}
+
+.row2 {
+    height: 33vh;
+    justify-content: center;
+}
