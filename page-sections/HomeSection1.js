@@ -4,12 +4,10 @@ import CustomProgressBar from "../components/CustomProgressBar";
 import styles from "../styles/HomeSection1.module.css"
 import Image from 'next/image'
 
-function handleClick () {
-    alert('you clicked me')
-}
-
 const HomeSection1 = () => {
-    return (
+    
+    
+      return (
       <>
         <Container className={styles.container} fluid>
           <Row className={styles.row}>
@@ -29,7 +27,7 @@ const HomeSection1 = () => {
               </Button>
               <CustomProgressBar
                 bgcolor="#3772FF"
-                completed={45}
+                completed={35}
                 className={styles.CustomProgressBar}
               />
             </Col>

@@ -2,7 +2,7 @@
 /* A Css variable used to toggle the visual grid on
  * and off. */
 .container {
-  --border-status: solid;
+  --border-status: none;
   --border-color: red;
   --border-color-mq: blue;
   background-color: black;
@@ -33,7 +33,7 @@
   font-size: 52px;
   line-height: 75px;
 
-  margin-top: 217px;
+  /* margin-top: 9vh; */
 }
 
 .p {
