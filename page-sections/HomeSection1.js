@@ -1,7 +1,7 @@
 import {Container, Row, Col, Button} from "react-bootstrap";
 import CountDownClock from "../components/CountDownClock";
 import CustomProgressBar from "../components/CustomProgressBar";
-import styles from "../styles/HomeSection1.module.css"
+import styles from "../styles/HomeSection/HomeSection1.module.css"
 import Image from 'next/image'
 
 const HomeSection1 = () => {
@@ -25,10 +25,13 @@ const HomeSection1 = () => {
               <Button className={styles.joinButton} href="#bottom">
                 Join the GreenVault Revolution
               </Button>
-              <CustomProgressBar
+              <div className={styles.progressBar}> 
+                <CustomProgressBar
                 bgcolor="#3772FF"
                 completed={35}
-              />
+                />
+              </div>
+   
             </Col>
             <Col className={styles.right_col}>
               <Image
