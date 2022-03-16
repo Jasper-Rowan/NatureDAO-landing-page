@@ -1,52 +1,17 @@
-// import Carousel from 'react-native-snap-carousel';
+import Carousel from "../components/Carousel";
+import CarouselItem from "../components/CarouselItem";
+import Tile from "../components/Tile";
 
-// const HomeSection4 = () => {
-//     this.state = {
-//         activeIndex:0,
-//         carouselItems: [
-//         {
-//             title:"Item 1",
-//             text: "Text 1",
-//         },
-//         {
-//             title:"Item 2",
-//             text: "Text 2",
-//         },
-//         {
-//             title:"Item 3",
-//             text: "Text 3",
-//         },
-//         {
-//             title:"Item 4",
-//             text: "Text 4",
-//         },
-//         {
-//             title:"Item 5",
-//             text: "Text 5",
-//         },
-//       ]
-//     }
-
-
-//     _renderItem = ({item, index}) => {
-//         return (
-//             <View style={styles.slide}>
-//                 <Text style={styles.title}>{ item.title }</Text>
-//             </View>
-//         );
-//     }
-    
-//     return ( 
-//         <>
-//         <Carousel layout={"default"}
-//                   ref={ref => this.carousel = ref}
-//                   data={this.state.carouselItems}
-//                   sliderWidth={300}
-//                   itemWidth={300}
-//                   renderItem={this._renderItem}
-//                   onSnapToItem = { index => this.setState({activeIndex:index}) } />
-//         </>
-//      );
-// }
+const Homesection4 = () => {
+    return ( 
+        <div>
+             <Carousel>
+                <CarouselItem> <Tile image_link={"/BlueIcon.svg"} heading={"Liquidating Unmined Gold"} body={"Unmined gold has never been as valuable as it is right now"}/> </CarouselItem>
+                <CarouselItem> Item 2</CarouselItem>
+                <CarouselItem> Item 3</CarouselItem>
+            </Carousel>
+        </div>
+    );
+}
  
-// export default HomeSection4;
+export default Homesection4;
