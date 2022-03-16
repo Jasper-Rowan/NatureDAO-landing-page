@@ -1,0 +1,87 @@
+
+/* A Css variable used to toggle the visual grid on
+ * and off. */
+.container {
+  --border-status: none;
+  --border-color: red;
+  --border-color-mq: blue;
+  background-color: black;
+  
+}
+
+.row {
+    min-height: 100vh;
+}
+
+.left_col {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+
+  color: white;
+  margin-left: 82px;
+}
+
+.h1 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 75px;
+
+  /* margin-top: 9vh; */
+}
+
+.p {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+
+  /* bodytext1 */
+  color: #9399BC;
+}
+
+.joinButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  padding: 16px 24px;
+  width: 297px;
+  height: 56px;
+  background: #3772FF;
+  border-radius: 8px;
+
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.right_col {
+  border: var(--border-status);
+  border-color: var(--border-color);
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0px;
+  margin: 0px;
+  
+}
+
+.clockContainer {
+  border: var(--border-status);
+  border-color: var(--border-color); 
+  display: flex;
+  justify-content: center;
+}
+
