@@ -17,7 +17,7 @@ function Footer() {
             <p>
               Subscribe to our newsletter to receive the latest information
               about GreenVault and the markets, directly to your inbox
-            </p
+            </p>
             <div className={styles.icon_div}>
               <span className={styles.social_media}>
                 <a
