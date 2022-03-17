@@ -14,6 +14,7 @@ function Footer() {
            <a href="https://telegram.org/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className={styles.icon} icon={faTelegram} /></a> 
           </span>
         </footer>
+        <a id="bottom"></a>
       </>
     );
 }

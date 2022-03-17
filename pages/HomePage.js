@@ -5,7 +5,6 @@ const HomePage = () => {
     return (
       <>
         <HomeSection1 />
-        <a id="bottom"></a>
       </>
     );
 }
