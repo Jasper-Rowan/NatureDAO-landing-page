@@ -6,7 +6,8 @@
 
 .row {
   min-height: calc(100vh - 57px);
-  min-width: 100vw;
+  width: 90vw;
+  margin: auto;
   text-align: center;
   color: #FFFFFF;
   display: flex;
