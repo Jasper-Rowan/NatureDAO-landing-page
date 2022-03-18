@@ -1,0 +1,22 @@
+.main {
+    --border-status: none;
+    --border-color: red;
+    --border-color-mq: blue;
+    border: var(--border-status); 
+    border-color: var(--border-color);
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    text-align: left;
+}
+
+.photo {
+    margin: 10px;
+    margin-bottom: 20px;
+    height: 175px;
+    width: 175px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}

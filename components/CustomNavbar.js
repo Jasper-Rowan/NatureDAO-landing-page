@@ -25,6 +25,7 @@ function CustomNavbar() {
                 <Nav.Link href="/comingsoon">whitepaper</Nav.Link>
                 <Nav.Link href="/comingsoon">governance</Nav.Link>
                 <Nav.Link href="/comingsoon">audits</Nav.Link>
+                <Nav.Link href="/about">about</Nav.Link>
               </Nav>
               </Navbar.Collapse>
             </Container>

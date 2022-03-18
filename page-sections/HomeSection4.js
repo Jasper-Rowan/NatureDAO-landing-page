@@ -16,7 +16,7 @@ const Homesection4 = () => {
                 <img className={styles.image} src="/HomeSection4 Icons.svg"/> 
             </Row> 
             
-            <Row> 
+            <Row styles={styles.row3}> 
             <Carousel>
                 <CarouselItem> 
                     <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 

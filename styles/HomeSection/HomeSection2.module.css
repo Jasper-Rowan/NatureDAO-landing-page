@@ -1,25 +1,29 @@
 .main_window {
     --border-status: none;
     --border-color: red;
-    --border-color-mq: blue
+    --border-color-mq: blue;
+    background-color: #140E3A;
+
+    width: 100vw;
   }
 
 
 .col1 {
-    background-color: #140E3A;
     border: var(--border-status);
     border-color: var(--border-color);
     display: flex;
     height: 100vh;
+    min-width: 50vw; 
 }
 
 .col2 {
-    background-color: #140E3A;
     border: var(--border-status);
     border-color: var(--border-color);
-    display: flex; 
+    display: flex;
     height: 100vh;
-    flex-flow: column;
+    min-width: 50vw;
+
+    flex-flow: column; 
 }
 
 .col3 {
@@ -82,7 +86,6 @@
 }
 
 .image2 {
-    
     padding: 0px;
     margin: 2vh;
     margin-left: 8vw;
@@ -93,3 +96,16 @@
     color: white;
     font-size: 3vw;
 }
+
+
+@media (max-width: 767px) {
+    .col1 {
+      display: none !important;
+    }
+
+    .title {
+        font-size: 5vw;
+        width: 90vw;
+        margin-left: 10vw; 
+    }
+  }
