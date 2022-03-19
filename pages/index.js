@@ -1,4 +1,3 @@
-import LandingPage from "../page-sections/LandingPage";
 import HomeSection1 from "../page-sections/HomeSection1";
 import HomeSection2 from "../page-sections/HomeSection2";
 import HomeSection3 from "../page-sections/HomeSection3";

@@ -22,7 +22,7 @@ function CustomNavbar() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link href="/comingsoon">whitepaper</Nav.Link>
+                <Nav.Link href="/whitepaper">whitepaper</Nav.Link>
                 <Nav.Link href="/comingsoon">governance</Nav.Link>
                 <Nav.Link href="/comingsoon">audits</Nav.Link>
               </Nav>
