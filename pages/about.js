@@ -1,5 +1,5 @@
 import {Row, Col}from "react-bootstrap";
-import styles from "../styles/About.module.css";
+import styles from "../styles/about.module.css";
 import AboutProfile from "../components/AboutProfile";
 
 const About = () => {
