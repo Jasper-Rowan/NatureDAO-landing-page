@@ -1,8 +1,10 @@
 .tile {
-    width: 19vw; 
+    min-width: 19vw; 
     height: 48vh;
+    margin: 5vw;
     margin-top: 2vh;
     border-radius: 7%;
+
 }
 
 .tile:hover {

@@ -2,14 +2,16 @@
     --border-status: none;
     --border-color: red;
     --border-color-mq: blue;
-    height: 65vh; 
+    /* min-height: 65vh;  */
+    border: var(--border-status);
+    border-color: var(--border-color-mq);
   }
 
 .row1 {
     border: var(--border-status);
     border-color: var(--border-color);
     color: white;
-    height: 12vh; 
+    min-height: 12vh; 
     align-items: center;
     margin-left: 1vw;
     
@@ -18,7 +20,7 @@
 .row2 {
     border: var(--border-status);
     border-color: var(--border-color);
-    height: 53vh;
+    min-height: 53vh;
 }
 
 .col {

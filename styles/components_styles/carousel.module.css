@@ -2,6 +2,7 @@
     overflow: hidden;
     height: 40vh;
     background-color: #140E3A;
+    width: 100vw;
 }
 
 .inner {
@@ -44,7 +45,7 @@
 }
 
 .col {
-    border: none;
+    border: solid;
     border-color: red;
     min-height: 40vh;
 }
@@ -54,6 +55,7 @@
     z-index: 1;
     width: 100vw;
     margin-left: 0.1vw;
+    padding: 0%; 
 }
 
 .indicators {
@@ -61,7 +63,18 @@
     justify-content: center;
 }
 
-.indicators > Button {
+/* .indicators > Button {
     margin: 5px; 
+} */
+
+@media (max-width: 767px) {
+    .carousel_tile_title {
+        font-size: 3vw;
+        font-weight: bold;
+    }
     
-}
+    .carousel_tile_body {
+        font-size: 2.4vw;
+    }
+
+  }

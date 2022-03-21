@@ -1,12 +1,12 @@
 import Carousel from "../components/Carousel";
 import CarouselItem from "../components/CarouselItem";
 import CarouselTile from "../components/CarouselTile";
-import { Row } from "react-bootstrap";
+import { Row, Container } from "react-bootstrap";
 import styles from "../styles/HomeSection/HomeSection4.module.css";
 
 const Homesection4 = () => {
     return ( 
-        <div className={styles.main}>
+        <Container fuild className={styles.main}>
             <Row className={styles.row1}> 
                 <p className={styles.paragraph}>HOW IT WORKS</p>
                 <h1 className={styles.title}>Our cryptocurrency based on blockchain tokenomics</h1>
@@ -16,7 +16,7 @@ const Homesection4 = () => {
                 <img className={styles.image} src="/HomeSection4 Icons.svg"/> 
             </Row> 
             
-            <Row> 
+            <Row styles={styles.row3}> 
             <Carousel>
                 <CarouselItem> 
                     <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
@@ -34,7 +34,7 @@ const Homesection4 = () => {
                 </CarouselItem>
             </Carousel>
             </Row>
-        </div>
+        </Container>
     );
 }
  
