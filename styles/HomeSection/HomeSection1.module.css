@@ -13,6 +13,7 @@
     min-height: calc(100vh - 57px);
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .left_col {
@@ -89,8 +90,10 @@
   position: relative;
   z-index: -1;
   margin-left: -80%;
-  top: 0;
-  right: -10%;
+  
+  top: -20%;
+  right: -25%;
+  
   /* margin-bottom: -20%; */
 }
 
@@ -99,7 +102,8 @@
   border-color: var(--border-color); 
   display: flex;
   justify-content: center;
-  margin-bottom: 20%;
-  
+  margin-top: -50%;
+  position: relative;
+  z-index: 5;
 }
 

@@ -32,6 +32,7 @@ const Tick = (props) => {
     justifyContent: "center",
     margin: 0,
     padding: 0,
+    fontSize: 'max(.6vw, 15px)'
   };
   return (
     <>
@@ -67,6 +68,7 @@ const CustomProgressBar = (props) => {
     const topText = {
       display: 'flex',
       justifyContent: 'space-between', 
+      fontSize: 'max(.6vw, 14px)'
     }
 
     const containerStyles = {
