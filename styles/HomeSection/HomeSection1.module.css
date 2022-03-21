@@ -10,7 +10,9 @@
 }
 
 .row {
-    min-height: 90vh;
+    min-height: calc(100vh - 57px);
+    position: relative;
+    z-index: 1;
 }
 
 .left_col {
@@ -28,22 +30,20 @@
 }
 
 .h1 {
-  font-style: normal;
   font-weight: 700;
-  font-size: 52px;
-  line-height: 75px;
-
-  /* margin-top: 9vh; */
+  font-size: 3vw;
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 
 .p {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: .9vw;
   line-height: 22px;
-
-  /* bodytext1 */
+  margin-right: 30%;
+  margin-bottom: 4%;
   color: #9399BC;
 }
 
@@ -58,6 +58,7 @@
   height: 56px;
   background: #3772FF;
   border-radius: 8px;
+  margin-bottom: 80px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -67,7 +68,8 @@
 }
 
 .progressBar{
-  margin-bottom: 60px;
+  margin-bottom: 10%;
+  margin-right: 30%;
 }
 
 .right_col {
@@ -79,7 +81,17 @@
   justify-content: space-around;
   padding: 0px;
   margin: 0px;
-  
+}
+
+.imgContainer {
+  border: var(--border-status);
+  border-color: var(--border-color); 
+  position: relative;
+  z-index: -1;
+  margin-left: -80%;
+  top: 0;
+  right: -10%;
+  /* margin-bottom: -20%; */
 }
 
 .clockContainer {
@@ -87,5 +99,7 @@
   border-color: var(--border-color); 
   display: flex;
   justify-content: center;
+  margin-bottom: 20%;
+  
 }
 
