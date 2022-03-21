@@ -3,12 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import styles from '../styles/NavBar.module.css';
+import Button from 'react-bootstrap/Button';
 
 function CustomNavbar() {
     return (
         <div>
           <Navbar className={styles.navbar} bg="black" variant="dark" expand="sm">
-            <Container className={styles.innerNavBar}>
+            <Container fluid className={styles.innerNavBar}>
               <Navbar.Brand href="/">
                 <img
                   alt=""
@@ -27,6 +28,7 @@ function CustomNavbar() {
                 <Nav.Link href="/comingsoon">audits</Nav.Link>
                 <Nav.Link href="/about">about</Nav.Link>
               </Nav>
+              <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div> 
               </Navbar.Collapse>
             </Container>
           </Navbar>
