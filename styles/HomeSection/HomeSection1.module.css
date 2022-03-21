@@ -2,7 +2,7 @@
 /* A Css variable used to toggle the visual grid on
  * and off. */
 .container {
-  --border-status: solid;
+  --border-status: none;
   --border-color: red;
   --border-color-mq: blue;
   background-color: black;
@@ -11,6 +11,8 @@
 
 .row {
     min-height: calc(100vh - 57px);
+    position: relative;
+    z-index: 1;
 }
 
 .left_col {
@@ -29,16 +31,19 @@
 
 .h1 {
   font-weight: 700;
-  margin-top: 40px;
+  font-size: 3vw;
+  margin-top: 10%;
+  margin-bottom: 4%;
 }
 
 .p {
-  font-family: 'Montserrat';
+  font-family: 'Montserrat', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
+  font-weight: 500;
+  font-size: .9vw;
   line-height: 22px;
-  margin-right: 5em;
+  margin-right: 30%;
+  margin-bottom: 4%;
   color: #9399BC;
 }
 
@@ -63,8 +68,8 @@
 }
 
 .progressBar{
-  margin-bottom: 60px;
-  margin-right: 5em;
+  margin-bottom: 10%;
+  margin-right: 30%;
 }
 
 .right_col {
@@ -73,9 +78,20 @@
   
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 0px;
   margin: 0px;
+}
+
+.imgContainer {
+  border: var(--border-status);
+  border-color: var(--border-color); 
+  position: relative;
+  z-index: -1;
+  margin-left: -80%;
+  top: 0;
+  right: -10%;
+  /* margin-bottom: -20%; */
 }
 
 .clockContainer {
@@ -83,7 +99,7 @@
   border-color: var(--border-color); 
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 20%;
   
 }
 
