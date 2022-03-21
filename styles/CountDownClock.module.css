@@ -5,7 +5,6 @@
  * provides the background color.
  */
 .divContainer {
-    width: 436px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,6 +16,7 @@
 
 .p {
     color: white;
+    font-size: 1em;
 }
 
 /** 
@@ -24,9 +24,8 @@
  * aligns them horizontally.
  */
 .span {
- 
     font-weight: large;
-    font-size: 4em;
+    font-size: 3em;
     color: #E5C641;
     display: flex;
 }

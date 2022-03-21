@@ -2,7 +2,7 @@
 /* A Css variable used to toggle the visual grid on
  * and off. */
 .container {
-  --border-status: none;
+  --border-status: solid;
   --border-color: red;
   --border-color-mq: blue;
   background-color: black;
@@ -10,7 +10,7 @@
 }
 
 .row {
-    min-height: 90vh;
+    min-height: calc(100vh - 57px);
 }
 
 .left_col {
@@ -28,12 +28,8 @@
 }
 
 .h1 {
-  font-style: normal;
   font-weight: 700;
-  font-size: 52px;
-  line-height: 75px;
-
-  /* margin-top: 9vh; */
+  margin-top: 40px;
 }
 
 .p {
@@ -42,8 +38,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-
-  /* bodytext1 */
+  margin-right: 5em;
   color: #9399BC;
 }
 
@@ -58,6 +53,7 @@
   height: 56px;
   background: #3772FF;
   border-radius: 8px;
+  margin-bottom: 80px;
 
   font-family: 'Poppins', sans-serif;
   font-style: normal;
@@ -68,6 +64,7 @@
 
 .progressBar{
   margin-bottom: 60px;
+  margin-right: 5em;
 }
 
 .right_col {
@@ -76,10 +73,9 @@
   
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0px;
   margin: 0px;
-  
 }
 
 .clockContainer {
@@ -87,5 +83,7 @@
   border-color: var(--border-color); 
   display: flex;
   justify-content: center;
+  margin-bottom: 20px;
+  
 }
 
