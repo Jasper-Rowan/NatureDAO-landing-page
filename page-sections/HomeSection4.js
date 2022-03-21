@@ -15,9 +15,8 @@ const Homesection4 = () => {
             <Row className={styles.row2}> 
                 <img className={styles.image} src="/HomeSection4 Icons.svg"/> 
             </Row> 
-            
-            <Row styles={styles.row3}> 
-            <Carousel>
+            <Row className={styles.row3}> 
+            <Carousel style={{position: "relative", zIndex:'1'}}>
                 <CarouselItem> 
                     <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
                     In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
@@ -33,6 +32,7 @@ const Homesection4 = () => {
                     In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
                 </CarouselItem>
             </Carousel>
+
             </Row>
         </Container>
     );
