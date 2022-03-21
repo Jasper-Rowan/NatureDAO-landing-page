@@ -36,3 +36,7 @@ input, select, textarea{
 textarea:focus, input:focus {
   color: #919191;
 }
+
+html, body {
+  overflow-x: hidden;
+}

@@ -109,7 +109,7 @@
 
 @media (max-width: 820px) {
     .main {
-        height: 400vh;
+        height: 450vh;
     }
 
     .body {
@@ -121,7 +121,8 @@
     }
 
     .middle {
-        margin-top: 30vh;
+
+        margin-top: 40vh;
     }
 
 }
