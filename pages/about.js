@@ -5,7 +5,7 @@ import AboutProfile from "../components/AboutProfile";
 const About = () => {
     return (
         <>
-        <div style={{backgroundColor: 'black', height: '300vh', position: 'absolute', zIndex:'0'}}>
+        <div className={styles.main}>
         <div className={styles.image1}>
                 <img src="backgroundImage.svg"/> 
             </div> 

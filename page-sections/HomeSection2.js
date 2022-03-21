@@ -4,7 +4,7 @@ import styles from "../styles/HomeSection/HomeSection2.module.css";
 
 const HomeSection2 = () => {
     return ( 
-        <>
+        <Container style={{margin: "0"}}>
         <Row className={styles.main_window}>
             <Col className={styles.col1}> 
                 <img className={styles.image1} src="/globe.svg"/> 
@@ -47,7 +47,7 @@ const HomeSection2 = () => {
                 </Row>
             </Col>
         </Row>
-        </>
+        </Container>
      );
 }
  
