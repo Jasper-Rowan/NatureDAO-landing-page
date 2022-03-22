@@ -3,12 +3,12 @@ import { Button } from 'react-bootstrap';
 import Container from 'react-bootstrap/Container';
 import styles from '../styles/test.module.css';
 
-import { Web3ReactProvider } from '@web3-react/core'
-import { Web3Provider } from "@ethersproject/providers";
+// import { Web3ReactProvider } from '@web3-react/core'
+// import { Web3Provider } from "@ethersproject/providers";
 
-function getLibrary(provider, connector) {
-  return new Web3Provider(provider);
-}
+// function getLibrary(provider, connector) {
+//   return new Web3Provider(provider);
+// }
 
 
 export default function Test() {
@@ -20,9 +20,9 @@ export default function Test() {
             <div> Wallet Address: </div> 
             <div> Account Balance: </div> 
             <Button> Connect Wallet</Button>
-            <Web3ReactProvider getLibrary={getLibrary}>
-                
-            </Web3ReactProvider>
+            {/* <Web3ReactProvider getLibrary={getLibrary}>
+
+            </Web3ReactProvider> */}
         </Container>
       </>
     );

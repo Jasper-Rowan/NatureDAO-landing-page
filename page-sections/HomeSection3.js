@@ -5,7 +5,7 @@ import styles from "../styles/HomeSection/HomeSection3.module.css";
 
 const HomeSection3 = () => {
     return ( 
-        <Container className={styles.main_window}>
+        <Container fluid className={styles.main_window}>
             <Row className={styles.row1}> 
                 <div> -------- WHY CHOOSE GREENVAULT </div> 
             </Row>
