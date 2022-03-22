@@ -98,8 +98,10 @@
 }
 
 .clockContainer {
+  /* border: solid; */
+  border-color: var(--border-color);
   display: flex;
-  justify-content: center;
+  justify-content: left;
   margin-top: -50%;
   position: relative;
   z-index: 5;
@@ -158,6 +160,7 @@
   .clockContainer {
     position: relative;
     z-index: 5;
+    justify-content: center;
   }
 }
 
