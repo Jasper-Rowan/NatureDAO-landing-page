@@ -49,3 +49,17 @@
     color: #9399BC;
     margin: auto;
 }
+
+@media (max-width: 1199px) {
+    .divContainer { 
+        opacity: .95;
+    }
+
+    .p {
+        opacity: 1;
+    }
+
+    .span {
+        opacity: 1;
+    }
+}
