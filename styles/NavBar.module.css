@@ -8,11 +8,7 @@
   }
 
   .buttonBox {
-/* 
-    border: solid;
-    border-color: blueviolet; */
     width: 100%;
-
     display: flex;
     justify-content: end;
   }
