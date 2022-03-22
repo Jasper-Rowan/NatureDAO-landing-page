@@ -102,18 +102,9 @@
   z-index: -1;
 }
 
-
-/* .highlighted:hover {
-  color: gold;  
-  background-image: url('/goldflake.png');
-  background-clip: text;
-  -webkit-background-clip: text;
-  color: transparent;
-} */
-
 /* This media query is set to activate when the 
  * the react boot strap grid elemes re-organize 
- * which is when the page width = xs or 576px. */
+ * which is when the page width = xl or >= 1200px. */
 
 @media (max-width: 1199px) {
   .row1 {

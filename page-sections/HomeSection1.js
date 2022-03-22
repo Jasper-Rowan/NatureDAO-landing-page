@@ -11,7 +11,7 @@ const HomeSection1 = () => {
         <>
           <Container className={styles.container} fluid>
             <Row className={styles.row}>
-              <Col lg={7} className={styles.left_col}>
+              <Col xl={8} xs={12} className={styles.left_col}>
                 <div className={styles.group1}>
                   <h1 className={styles.h1}>
                     The{" "}
@@ -35,14 +35,13 @@ const HomeSection1 = () => {
                   <CustomProgressBar bgcolor="#3772FF" completed={35} />
                 </div>
               </Col>
-              <Col className={styles.right_col}>
+              <Col xl={true} xs={12} className={styles.right_col}>
                 <div className={styles.imgContainer}>
                   <Image
                     className={styles.img}
                     src="/GoldGif.gif"
                     width={1920}
                     height={1080}
-                    // layout="fill"
                   />
                 </div>
                 <div className={styles.clockContainer}>
