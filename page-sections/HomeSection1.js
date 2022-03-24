@@ -18,14 +18,19 @@ const HomeSection1 = () => {
                     <span style={{ color: "rgba(135,205,155)" }}>
                       Sustainable
                     </span>{" "}
-                    Cryptocurrency Revolutionizing Unmined{" "}
-                    <span style={{ color: "rgba(224,199,90)" }}>Gold</span>
+                    Cryptocurrency backed by{" "}
+                    <span style={{ color: "rgba(224,199,90)" }}>
+                      Gold Conservation
+                    </span>
                   </h1>
                   <p className={styles.p}>
-                    The first decentralized marketplace that tokenizes unmined
-                    gold and creates standardized market liquidity through
-                    blockchain technology. We use conservatorship to secure and
-                    protect land around the world.
+                    The <strong>$500 billion</strong> industry of impact
+                    investors has only one way to gain exposure to the{" "}
+                    <strong>$10 trillion</strong> gold market: {" "}
+                    <strong>GreenVault ORE</strong>. The first carbon-negative
+                    currency backed by the conservation of gold mines.
+                    GreenVault aims to overtake gold ETFs as the premier vehicle
+                    to trade gold.
                   </p>
                   <Button className={styles.joinButton} href="#bottom">
                     Join the GreenVault Revolution
