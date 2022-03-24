@@ -25,15 +25,15 @@ const WhitepaperSection1 = () => {
             <Col className={styles.col}>
               <WhitepaperTile
                 image_link={"/BlueIcon.svg"}
-                h1="GreenVault - The Gold Standard of Crypto"
-                body="The paper outlining the architecture of the GreenVault solution and the various features that make it unique."
+                h1="Conservation Impact Summary"
+                body="The paper aims to capture and quantify the global impact of conservation through the GreenVault ORE Token."
               />
             </Col>
             <Col className={styles.col}>
               <WhitepaperTile
                 image_link={"/BlueIcon.svg"}
-                h1="GreenVault - The Gold Standard of Crypto"
-                body="The paper outlining the architecture of the GreenVault solution and the various features that make it unique."
+                h1="Green Gold - A new gold mining perspective"
+                body="The paper aims to capture and quantify the global impact of conservation through the GreenVault ORE Token."
               />
             </Col>
           </Row>
