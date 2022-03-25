@@ -83,3 +83,11 @@
 //         </div>
 //     );
 // }
+
+const Test = () => {
+  return ( <>
+    random
+  </> );
+}
+ 
+export default Test;
