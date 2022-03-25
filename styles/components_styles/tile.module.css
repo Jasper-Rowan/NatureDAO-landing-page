@@ -23,13 +23,16 @@
     margin-left: 15px; 
     margin-right: 15px; 
     color: white; 
-    font-size: 3.8vh;
+    font-size: min(2.75vh, 26px);
+
     font-weight: bold;
 }
 
 .body {
     color: white; 
-    font-size: 2.1vh;
+    font-size: min(2.1vh, 20.75px);
     margin-left: 15px; 
     margin-right: 15px; 
 }
+
+

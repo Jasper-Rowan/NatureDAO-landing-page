@@ -2,14 +2,14 @@
     --border-status: none;
     --border-color: red;
     --border-color-mq: blue;
-    /* min-height: 65vh;  */
+
     border: var(--border-status);
-    border-color: var(--border-color-mq);
+    border-color: purple;
   }
 
 .row1 {
     border: var(--border-status);
-    border-color: var(--border-color);
+    border-color: var(--border-color-mq);
     color: white;
     min-height: 12vh; 
     align-items: center;
@@ -19,8 +19,8 @@
 
 .row2 {
     border: var(--border-status);
-    border-color: var(--border-color);
-    min-height: 53vh;
+    border-color: var(--border-color-mq);
+    /* min-height: 53vh; */
 }
 
 .col {
@@ -28,4 +28,6 @@
     border-color: var(--border-color);
     display: flex;
     justify-content: center;
+    max-height: 52vh;
 }
+
