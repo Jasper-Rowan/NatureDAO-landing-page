@@ -43,7 +43,7 @@ const HomeSection1 = () => {
               <Col xl={true} xs={12} className={styles.right_col}>
                 <div className={styles.imgContainer}>
                   <Image
-                    className={styles.img}
+                    
                     src="/GoldGif.gif"
                     width={1920}
                     height={1080}
