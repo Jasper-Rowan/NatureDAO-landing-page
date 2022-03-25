@@ -9,14 +9,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 20px 44px 30px 40px;
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 1%;
     background: #272C44;
     border-radius: 10px;
 }
 
 .p {
     color: white;
-    font-size: 1em;
+    font-size: max(.7vw, 12px);;
 }
 
 /** 
@@ -25,7 +28,7 @@
  */
 .span {
     font-weight: large;
-    font-size: 3em;
+    font-size: max(2vw, 30px);;
     color: #E5C641;
     display: flex;
 }
@@ -42,7 +45,21 @@
 }
 
 .text {
-    font-size: 14px;
+    font-size: max(.7vw, 12px);
     color: #9399BC;
     margin: auto;
+}
+
+@media (max-width: 1199px) {
+    .divContainer { 
+        opacity: .95;
+    }
+
+    .p {
+        opacity: 1;
+    }
+
+    .span {
+        opacity: 1;
+    }
 }

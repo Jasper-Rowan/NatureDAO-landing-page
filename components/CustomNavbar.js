@@ -23,12 +23,12 @@ function CustomNavbar() {
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
+                <Nav.Link href="/about">about</Nav.Link>
                 <Nav.Link href="/whitepaper">whitepaper</Nav.Link>
                 <Nav.Link href="/comingsoon">governance</Nav.Link>
                 <Nav.Link href="/comingsoon">audits</Nav.Link>
-                <Nav.Link href="/about">about</Nav.Link>
               </Nav>
-              <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div> 
+//               <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div> 
               </Navbar.Collapse>
             </Container>
           </Navbar>

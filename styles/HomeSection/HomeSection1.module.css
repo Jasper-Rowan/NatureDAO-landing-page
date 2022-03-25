@@ -13,10 +13,11 @@
     min-height: calc(100vh - 57px);
     position: relative;
     z-index: 1;
+    overflow: hidden;
 }
 
 .left_col {
-  border: var(--border-status);
+  border: none;
   border-color: var(--border-color);
   
   display: flex;
@@ -31,7 +32,7 @@
 
 .h1 {
   font-weight: 700;
-  font-size: 3vw;
+  font-size: 3.5vw;
   margin-top: 10%;
   margin-bottom: 4%;
 }
@@ -40,7 +41,7 @@
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: .9vw;
+  font-size: max(.9vw, 14px);
   line-height: 22px;
   margin-right: 30%;
   margin-bottom: 4%;
@@ -88,18 +89,88 @@
   border-color: var(--border-color); 
   position: relative;
   z-index: -1;
-  margin-left: -80%;
-  top: 0;
-  right: -10%;
+  margin-left: min(-80%, -500px);
+  
+  top: -15%;
+  right: -25%;
+  
   /* margin-bottom: -20%; */
 }
 
 .clockContainer {
-  border: var(--border-status);
-  border-color: var(--border-color); 
+  /* border: solid; */
+  border-color: var(--border-color);
   display: flex;
-  justify-content: center;
-  margin-bottom: 20%;
-  
+  justify-content: left;
+  margin-top: -50%;
+  position: relative;
+  z-index: 5;
 }
 
+@media (max-width: 1199px) {
+  .row {
+    height: auto;
+  }
+
+  .left_col {
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    /* padding-left: 5vw; */
+  }
+  
+  .h1 {
+    font-size: 8vw;
+  }
+
+  .p {
+    text-align: center;
+    margin: auto;
+    max-width: 70vw;
+    
+  }
+
+  .joinButton {
+    margin: auto;
+    margin-top: 5vh;
+  }
+
+  .progressBar {
+    margin: auto;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 65vw;
+  }
+
+  
+  .right_col {
+    margin: 0;
+    justify-content: center;
+    height: 40vh;
+  }
+
+  .imgContainer {
+    position: relative;
+    z-index: -1;
+    background-size: contain;
+    margin: 0;
+    margin-top: -10vh; 
+    right: auto;
+  }
+
+  .clockContainer {
+    position: relative;
+    z-index: 5;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 570px) { 
+  .h1 {
+    font-size: 9vw;
+  }
+
+  .left_col {
+    margin-bottom: 8vh;
+  }
+}
