@@ -6,6 +6,9 @@ const About = () => {
     return (
       <>
         <div className={styles.main}>
+          <div className={styles.fill}>
+            <img src="/HologramPlanet.gif" />
+          </div>
           <div className={styles.image1}>
             <img src="backgroundImage.svg" />
           </div>
@@ -27,7 +30,7 @@ const About = () => {
               investors access to its value.
             </p>
             <p className={styles.body}>
-              <strong>Soultion</strong> - GreenVault minimizes the damaging
+              <strong>Soltion</strong> - GreenVault minimizes the damaging
               impact of mining gold for investment purposes by creating a
               digital token that derives its value from the conservation of gold
               mines.
@@ -46,9 +49,6 @@ const About = () => {
             </p>
           </div>
 
-          <div className={styles.fill}>
-            <img src="/HologramPlanet.gif" />
-          </div>
 
           <div className={styles.middle}>
             <h1 className={styles.header2}> Mission </h1>
