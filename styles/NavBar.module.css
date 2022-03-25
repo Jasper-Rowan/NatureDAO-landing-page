@@ -8,6 +8,13 @@
     background-color: black;
   }
 
+  .buttonBox {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+
 
 .innerNavbarContainer {
     margin: 0;
