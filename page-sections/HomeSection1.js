@@ -33,7 +33,7 @@ const HomeSection1 = () => {
                     to trade gold.
                   </p>
                   <Button className={styles.joinButton} href="#bottom">
-                    Join the GreenVault Revolution
+                    Enter the Vault
                   </Button>
                 </div>
                 <div className={styles.progressBar}>
