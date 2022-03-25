@@ -28,7 +28,7 @@ function CustomNavbar() {
                 <Nav.Link href="/comingsoon">governance</Nav.Link>
                 <Nav.Link href="/comingsoon">audits</Nav.Link>
               </Nav>
-//               <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div> 
+               {/* <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div>  */}
               </Navbar.Collapse>
             </Container>
           </Navbar>
