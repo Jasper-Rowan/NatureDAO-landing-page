@@ -10,9 +10,7 @@ function Footer() {
       <>
         <Container fluid className={styles.container}>
           <Row className={styles.row}>
-            <h1 className={styles.h1}>
-              Stay in the loop, never miss an update
-            </h1>
+            <h1 className={styles.h1}>Don’t miss out.</h1>
             <EmailBox />
             <p>
               Subscribe to our newsletter to receive the latest information

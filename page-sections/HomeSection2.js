@@ -35,14 +35,14 @@ const HomeSection2 = () => {
                   <div>
                     <h3 className={styles.titles2}>Gold Conservation</h3>
                     <div className={styles.p1}>
-                      Our unique model enables us to secure and protect land all
-                      across the globe.
+                      Our unique model enables us to secure and protect land in
+                      the United States and across the globe.
                     </div>
                   </div>
                   <div>
                     <h3 className={styles.titles2}>Endless Growth</h3>
                     <div className={styles.p1}>
-                      The markets are so huge, the fun never ends!
+                      With markets this huge, the fun never ends!
                     </div>
                   </div>
                 </div>

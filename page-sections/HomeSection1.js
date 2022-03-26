@@ -14,13 +14,13 @@ const HomeSection1 = () => {
               <Col xl={8} xs={12} className={styles.left_col}>
                 <div className={styles.group1}>
                   <h1 className={styles.h1}>
-                    The{" "}
+                  ORE, the{" "}
                     <span style={{ color: "rgba(135,205,155)" }}>
-                      Sustainable
+                      growing
                     </span>{" "}
-                    Cryptocurrency backed by{" "}
+                    cryptocurrency backed by{" "}
                     <span style={{ color: "rgba(224,199,90)" }}>
-                      Gold Conservation
+                      Gold conservation
                     </span>
                   </h1>
                   <p className={styles.p}>

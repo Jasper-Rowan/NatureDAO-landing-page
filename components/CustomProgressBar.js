@@ -112,10 +112,10 @@ const CustomProgressBar = (props) => {
       <div style={boxStyles}>
         <div style={topText}>
           <p>
-            <span style={{ color: "#9399BC" }}>Raised</span> - 145,000,000 Tokens
+            <span style={{ color: "#9399BC" }}>Raised</span> - 14,500,000 Tokens
           </p>
           <p>
-            <span style={{ color: "#9399BC" }}>Target</span> - 200,000,000 Tokens
+            <span style={{ color: "#9399BC" }}>Target</span> - 400,000,000 Tokens
           </p>
         </div>
 
