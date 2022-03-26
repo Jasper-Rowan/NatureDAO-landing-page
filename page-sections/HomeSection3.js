@@ -16,13 +16,13 @@ const HomeSection3 = () => {
                         
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
-                    <Tile image_link={"/GreenIcon.svg"} heading={"Low transaction fees"} body={"Using the cutting edge of blockchain technologies we can keep fees low"}/> 
+                    <Tile image_link={"/GreenIcon.svg"} heading={"Low transaction fees"} body={"Utilizing blockchain technologies keeps fees low"}/> 
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
-                    <Tile image_link={"/GrayIcon.svg"} heading={"Protect the environment"} body={"We have the infrastructure in place to protect millions of arces of land"}/> 
+                    <Tile image_link={"/GrayIcon.svg"} heading={"Protect the environment"} body={"GreenVault has the infrastructure to protect millions of hectares of land"}/> 
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
-                    <Tile image_link={"/GoldIcon.svg"} heading={"Security & Control"} body={"Provide high levels of security allowing users to keep assets secure"}/>
+                    <Tile image_link={"/GoldIcon.svg"} heading={"Security & Control"} body={"Maximum security allows users to sleep easy knowing their assets are safe"}/>
                 </Col> 
             </Row> 
         </Container>

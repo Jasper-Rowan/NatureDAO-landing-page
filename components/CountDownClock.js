@@ -39,7 +39,7 @@ const CountDownClock = () => {
 
     return (
         // The date format is 'year-month-day T hour:min:sec'
-        <Countdown date={'2022-09-17T00:00:00'} renderer={renderer} />
+        <Countdown date={'2022-06-17T00:00:00'} renderer={renderer} />
     );
 }
  
