@@ -3,7 +3,6 @@
     --border-color: red;
     --border-color-mq: blue;
     background-color: #140E3A;
-
     width: 100vw;
   }
 
@@ -69,8 +68,6 @@
 .titles2 {
     color: #47D7AC;
     font-size: 3vh;
-    /* margin-top: 2vh;
-    margin-bottom: 17vh; */
 }
 
 .p1 {
@@ -98,8 +95,7 @@
     font-size: 3vw;
 }
 
-
-@media (max-width: 767px) {
+  @media (max-width: 1250px) {
     .col1 {
       display: none !important;
     }

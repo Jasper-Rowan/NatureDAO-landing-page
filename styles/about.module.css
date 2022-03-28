@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-.fill img {
+.fill Image {
     flex-shrink: 0;
     min-width: 90%;
     min-height: 90%;

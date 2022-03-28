@@ -7,7 +7,7 @@ const HomeSection2 = () => {
       <Container style={{ margin: "0" }}>
         <Row className={styles.main_window}>
           <Col className={styles.col1}>
-            <img className={styles.image1} src="/globe.svg" />
+            <Image className={styles.image1} src="/globe.svg" />
           </Col>
           <Col className={styles.col2}>
             <Row className={styles.row1}>
@@ -17,7 +17,7 @@ const HomeSection2 = () => {
             </Row>
             <Row>
               <Col xs={4} className={styles.col3}>
-                <img
+                <Image
                   className={styles.image2}
                   src="/HomeSection_bullet_icons.svg"
                 />
