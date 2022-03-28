@@ -22,19 +22,23 @@ const Homesection4 = () => {
                     In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
                 </CarouselItem>
 
-                <CarouselItem>
-                    <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
-                    In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
-                </CarouselItem>
 
-                <CarouselItem> 
-                    <CarouselTile title="BLOCKCHAIN MODEL" body="Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. 
-                    In principle this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades."/> 
-                </CarouselItem>
-            </Carousel>
+            <CarouselItem>
+              <CarouselTile
+                title="GOLD ETFs"
+                body="Exchange-traded funds provide investors exposure to gold by hoarding bullion in bank vaults and issuing securities against them. Unfortunately they make no attempts to mitigate their massive environmental footprint."
+              />
+            </CarouselItem>
 
-            </Row>
-        </Container>
+            <CarouselItem>
+              <CarouselTile
+                title="GREENVAULT"
+                body="The ORE token brings verified precious metals on chain before they are mined, offering a carbon-negative alternative to gold ETFs."
+              />
+            </CarouselItem>
+          </Carousel>
+        </Row>
+      </Container>
     );
 }
  

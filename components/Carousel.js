@@ -6,7 +6,7 @@ import { Button, Col, Row } from "react-bootstrap";
 
 const Carousel = (props) => {
 
-    const [activeIndex, setActiveIndex] = useState(1);
+    const [activeIndex, setActiveIndex] = useState(0);
 
 
     const updateIndex = (newIndex) => {
