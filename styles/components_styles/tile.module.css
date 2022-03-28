@@ -1,10 +1,10 @@
 .tile {
     min-width: 19vw; 
     height: 48vh;
+    min-height: 250px;
     margin: 5vw;
-    margin-top: 2vh;
+    margin-top: max(2vh, 20px);
     border-radius: 7%;
-
 }
 
 .tile:hover {
@@ -23,14 +23,14 @@
     margin-left: 15px; 
     margin-right: 15px; 
     color: white; 
-    font-size: min(2.75vh, 26px);
+    font-size: max(2.75vh, 26px);
 
     font-weight: bold;
 }
 
 .body {
     color: white; 
-    font-size: min(2.1vh, 20.75px);
+    font-size: max(2.1vh, 20.75px);
     margin-left: 15px; 
     margin-right: 15px; 
 }
