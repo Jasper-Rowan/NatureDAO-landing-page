@@ -32,3 +32,11 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## Test on Mobile
+
+1. Run: ipconfig getifaddr en0
+2. Get ur IP address example: 192.168.86.176
+3. Then add the port number of the server currently running. ex: 3000
+4. Getting something like this: 192.168.86.176:3000
+5. Type this ip address into your desired browser on your mobile device

@@ -16,7 +16,7 @@ const HomeSection1 = () => {
                   <h1 className={styles.h1}>
                   ORE, the{" "}
                     <span style={{ color: "rgba(135,205,155)" }}>
-                      growing
+                      carbon-negative
                     </span>{" "}
                     cryptocurrency backed by{" "}
                     <span style={{ color: "rgba(224,199,90)" }}>

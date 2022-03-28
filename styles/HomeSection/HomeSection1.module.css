@@ -93,13 +93,9 @@
   
   top: -15%;
   right: -25%;
-  
-  /* margin-bottom: -20%; */
 }
 
 .clockContainer {
-  /* border: solid; */
-  border-color: var(--border-color);
   display: flex;
   justify-content: left;
   margin-top: -50%;
@@ -109,14 +105,13 @@
 
 @media (max-width: 1199px) {
   .row {
-    height: auto;
+    min-height: 1200px;
   }
 
   .left_col {
     margin: 0;
     text-align: center;
     width: 100%;
-    /* padding-left: 5vw; */
   }
   
   .h1 {
@@ -165,7 +160,7 @@
   }
 }
 
-@media (max-width: 570px) { 
+@media (max-width: 570px) {
   .h1 {
     font-size: 9vw;
   }
