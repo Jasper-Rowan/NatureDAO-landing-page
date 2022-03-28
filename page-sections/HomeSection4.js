@@ -1,19 +1,19 @@
 import Carousel from "../components/Carousel";
 import CarouselItem from "../components/CarouselItem";
 import CarouselTile from "../components/CarouselTile";
-import { Row, Container } from "react-bootstrap";
+import { Row, Container, Image } from "react-bootstrap";
 import styles from "../styles/HomeSection/HomeSection4.module.css";
 
 const Homesection4 = () => {
     return ( 
-        <Container fuild className={styles.main}>
+        <Container className={styles.main}>
             <Row className={styles.row1}> 
                 <p className={styles.paragraph}>HOW IT WORKS</p>
                 <h1 className={styles.title}>Our cryptocurrency based on blockchain tokenomics</h1>
             </Row>
 
             <Row className={styles.row2}> 
-                <img className={styles.image} src="/HomeSection4 Icons.svg"/> 
+                <Image className={styles.image} src="/HomeSection4 Icons.svg"/> 
             </Row> 
             <Row className={styles.row3}> 
             <Carousel style={{position: "relative", zIndex:'1'}}>

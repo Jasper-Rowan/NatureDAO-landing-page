@@ -1,7 +1,6 @@
 import CustomNavbar from "./CustomNavbar";
 import Footer from "./Footer";
 import Head from "next/head";
-import Background from "./Background";
 
 
 const Layout = ({ children }) => {

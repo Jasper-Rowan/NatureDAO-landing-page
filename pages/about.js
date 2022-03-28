@@ -1,4 +1,4 @@
-import {Row, Col}from "react-bootstrap";
+import {Row, Col, Image}from "react-bootstrap";
 import styles from "../styles/about.module.css";
 import AboutProfile from "../components/AboutProfile";
 
@@ -7,10 +7,10 @@ const About = () => {
       <>
         <div className={styles.main}>
           <div className={styles.fill}>
-            <img src="/HologramPlanet.gif" />
+            <Image src="/HologramPlanet.gif" />
           </div>
           <div className={styles.image1}>
-            <img src="backgroundImage.svg" />
+            <Image src="backgroundImage.svg" />
           </div>
           <div className={styles.text}>
             <h1 className={styles.header}> About GreenVault </h1>
