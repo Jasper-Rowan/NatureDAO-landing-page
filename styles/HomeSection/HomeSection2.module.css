@@ -3,7 +3,7 @@
     --border-color: red;
     --border-color-mq: blue;
     background-color: #140E3A;
-    width: 100vw;
+    min-height: 500px;
   }
 
 
@@ -21,8 +21,7 @@
     display: flex;
     height: 100vh;
     min-width: 50vw;
-
-    flex-flow: column; 
+    flex-direction: column; 
 }
 
 .col3 {
@@ -46,11 +45,7 @@
 .row1 {
     border: var(--border-status);
     border-color: var(--border-color);
-    height: fit-content;
-    width: fit-content;
     margin-top: 15vh;
-    display: flex; 
-    justify-items: center;
     text-align: center;
 }
 
@@ -67,12 +62,14 @@
 
 .titles2 {
     color: #47D7AC;
-    font-size: 3vh;
+    /* font-size: 3vh;  */
+    /* /* font-size: max(3vh, 25px); */
+    margin-top: 13px;
 }
 
 .p1 {
     color: white; 
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 
@@ -88,6 +85,7 @@
     margin: 2vh;
     margin-left: 8vw;
     height: 46vh;
+    min-height: 320px;
 }
 
 .title {

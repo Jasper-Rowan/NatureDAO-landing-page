@@ -10,7 +10,7 @@
 
 
 .row1 {
-    height: 33vh;
+    height: min(33vh, 300px);
     width: 100vw;
     justify-content: center;
     text-align: center;
@@ -33,7 +33,7 @@
 }
 
 .row2 {
-    height: 33vh;
+    height: min(33vh, 350px);
     justify-content: center;
     width: 100vw;
     background-color: #140E3A

@@ -29,5 +29,6 @@
     display: flex;
     justify-content: center;
     max-height: 52vh;
+    min-height: 300px;
 }
 
