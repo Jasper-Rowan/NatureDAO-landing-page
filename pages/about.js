@@ -1,18 +1,20 @@
-import {Row, Col, Image}from "react-bootstrap";
+import {Row, Col, Image, Container}from "react-bootstrap";
 import styles from "../styles/about.module.css";
 import AboutProfile from "../components/AboutProfile";
 
 const About = () => {
     return (
       <>
-        <div className={styles.main}>
+        <Container fluid className={styles.main}>
+          <Row> 
+                     
           <div className={styles.fill}>
             <Image src="/HologramPlanet.gif" />
           </div>
           <div className={styles.image1}>
             <Image src="backgroundImage.svg" />
           </div>
-          <div className={styles.text}>
+          <Row  className={styles.text}>
             <h1 className={styles.header}> About GreenVault </h1>
 
             <p className={styles.body}>
@@ -52,9 +54,9 @@ const About = () => {
               maintenance of each project. As more projects are added to
               GreenVault, more value backs the fixed amount of ORE tokens.
             </p>
-          </div>
+          </Row>
 
-          <div className={styles.middle}>
+          <Row className={styles.middle}>
             <h1 className={styles.header2}> Mission </h1>
 
             <p className={styles.body2}>
@@ -75,54 +77,59 @@ const About = () => {
               world’s unmined gold reserves, it rewards both investors and the
               environment.
             </p>
+          </Row>
 
-            <h1 className={styles.header2}> Team </h1>
 
-            <Row className={styles.row}>
-              <Col lg={3} md={6} className={styles.col}>
-                <AboutProfile
-                  ImgSrc={"hannibal.jpeg"}
-                  name={"Callam Ingram"}
-                  title={"Co-Founder and CTO"}
-                  description={
-                    "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
-                  }
-                />
-              </Col>
-              <Col lg={3} md={6} className={styles.col}>
-                <AboutProfile
-                  ImgSrc={"hannibal.jpeg"}
-                  name={"Callam Ingram"}
-                  title={"Co-Founder and CTO"}
-                  description={
-                    "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
-                  }
-                />
-              </Col>
 
-              <Col lg={3} md={6} className={styles.col}>
-                <AboutProfile
-                  ImgSrc={"hannibal.jpeg"}
-                  name={"Callam Ingram"}
-                  title={"Co-Founder and CTO"}
-                  description={
-                    "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
-                  }
-                />
-              </Col>
-              <Col lg={3} md={6} className={styles.col}>
-                <AboutProfile
-                  ImgSrc={"hannibal.jpeg"}
-                  name={"Callam Ingram"}
-                  title={"Co-Founder and CTO"}
-                  description={
-                    "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
-                  }
-                />
-              </Col>
-            </Row>
-          </div>
-        </div>
+
+          </Row>
+ 
+            {/* <h1 className={styles.header2}> Team </h1>
+
+              <Row className={styles.row}>
+                <Col lg={3} md={6} className={styles.col}>
+                  <AboutProfile
+                    ImgSrc={"hannibal.jpeg"}
+                    name={"Callam Ingram"}
+                    title={"Co-Founder and CTO"}
+                    description={
+                      "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
+                    }
+                  />
+                </Col>
+                <Col lg={3} md={6} className={styles.col}>
+                  <AboutProfile
+                    ImgSrc={"hannibal.jpeg"}
+                    name={"Callam Ingram"}
+                    title={"Co-Founder and CTO"}
+                    description={
+                      "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
+                    }
+                  />
+                </Col>
+
+                <Col lg={3} md={6} className={styles.col}>
+                  <AboutProfile
+                    ImgSrc={"hannibal.jpeg"}
+                    name={"Callam Ingram"}
+                    title={"Co-Founder and CTO"}
+                    description={
+                      "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
+                    }
+                  />
+                </Col>
+                <Col lg={3} md={6} className={styles.col}>
+                  <AboutProfile
+                    ImgSrc={"hannibal.jpeg"}
+                    name={"Callam Ingram"}
+                    title={"Co-Founder and CTO"}
+                    description={
+                      "Callam was a key figure in the battle of Cannae as well as a spokes person for Wernher von Braun"
+                    }
+                  />
+                </Col>
+              </Row> */}
+        </Container>
       </>
     );
 }
