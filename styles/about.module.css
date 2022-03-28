@@ -23,6 +23,7 @@
     flex-shrink: 0;
     min-width: 90%;
     min-height: 90%;
+    
     /* max-width: 115%;
     max-height: 115%; */
     margin-left: 40vw;
@@ -126,5 +127,19 @@
     }
     .fill {
         opacity: .4;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .body {
+        width: 80%;
+    }
+    
+    .body2 {
+        width: 70%;
+    }
+    .fill {
+        opacity: .5;
     }
 }
