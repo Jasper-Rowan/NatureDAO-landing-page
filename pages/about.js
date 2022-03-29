@@ -1,6 +1,8 @@
-import {Row, Col, Image, Container}from "react-bootstrap";
+import {Row, Col, Container}from "react-bootstrap";
 import styles from "../styles/about.module.css";
 import AboutProfile from "../components/AboutProfile";
+import Image from 'next/image';
+
 
 const About = () => {
     return (

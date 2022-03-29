@@ -1,4 +1,5 @@
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Row, Col} from "react-bootstrap";
+import Image from 'next/image';
 import styles from "../styles/HomeSection/HomeSection2.module.css";
 
 
