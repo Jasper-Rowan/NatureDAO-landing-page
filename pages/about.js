@@ -1,6 +1,5 @@
 import {Row, Col, Container}from "react-bootstrap";
 import styles from "../styles/about.module.css";
-import AboutProfile from "../components/AboutProfile";
 import Image from 'next/image';
 
 
@@ -11,10 +10,10 @@ const About = () => {
           <Row> 
                      
           <div className={styles.fill}>
-            <Image src="/HologramPlanet.gif" />
+            <Image src="/HologramPlanet.gif" width={1920} height={1080}/>
           </div>
           <div className={styles.image1}>
-            <Image src="backgroundImage.svg" />
+            <Image src="/backgroundImage.svg" width={800} height={2000} />
           </div>
           <Row  className={styles.text}>
             <h1 className={styles.header}> About GreenVault </h1>

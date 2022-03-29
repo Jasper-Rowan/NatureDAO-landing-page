@@ -32,7 +32,7 @@
 
 .image1 {
     position: absolute;
-    z-index: -2;
+    z-index: -1;
     opacity: .5;
 }
 
@@ -98,7 +98,6 @@
     text-align: center;
 
     justify-items: center;
-    /* width: 100vw; */
 }
 
 
