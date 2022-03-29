@@ -10,22 +10,25 @@
 
 
 .row1 {
-    height: min(33vh, 300px);
+    min-height: max(33vh, 300px);
     width: 100vw;
     justify-content: center;
     text-align: center;
     color: white;
-    background-color: #140E3A
+    background-color: #140E3A;
+
 
 }
 
 
 .paragraph {
     margin-top: 50px;
+    border: solid blue; 
 }
 
 .image {
     width: 50vw;
+    max-height: 250px;
 }
 
 .title {

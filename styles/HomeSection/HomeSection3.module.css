@@ -5,6 +5,7 @@
 
     border: var(--border-status);
     border-color: purple;
+    min-height: 500px;
   }
 
 .row1 {
