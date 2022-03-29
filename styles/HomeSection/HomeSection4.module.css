@@ -23,7 +23,7 @@
 
 .paragraph {
     margin-top: 50px;
-    border: solid blue; 
+    /* border: solid blue;  */
 }
 
 .image {
