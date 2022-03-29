@@ -9,14 +9,10 @@ import {Container, Row, Col} from 'react-bootstrap';
 
 const WhitepaperSection1 = () => {
   function showpdf(directory){
-    console.log("function called")
     if (typeof window !== "undefined") {
       // browser code
       window.open(directory)
-    } else {
-      console.log("indow not Found ")
     }
-
   }
 
     return (
