@@ -3,6 +3,7 @@
     height: max(auto, 800px);
     background-color: #140E3A;
     width: 100vw;
+    min-height: max(34vh, 300px);
 }
 
 .inner {
