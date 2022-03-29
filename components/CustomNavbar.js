@@ -24,7 +24,7 @@ function CustomNavbar() {
               <Nav className="me-auto">
                 <Nav.Link href="/about">about</Nav.Link>
                 <Nav.Link href="/whitepaper">whitepapers</Nav.Link>
-                <Nav.Link href="/comingsoon">governance</Nav.Link>
+                <Nav.Link href="https://snapshot.org/#/greenvault.eth">governance</Nav.Link>
                 {/* <Nav.Link href="/comingsoon">audits</Nav.Link> */}
               </Nav>
                {/* <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div>  */}
