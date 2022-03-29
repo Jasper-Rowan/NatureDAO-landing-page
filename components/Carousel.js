@@ -6,7 +6,10 @@ import { Button, Col, Row } from "react-bootstrap";
 
 const Carousel = (props) => {
 
-    const [activeIndex, setActiveIndex] = useState(0);
+
+    const [activeIndex, setActiveIndex] = useState(1);
+    const [shiftDist, setShiftDist] = useState(45);
+    const [shiftOffset, setShiftOffset] = useState(25);
 
 
     const updateIndex = (newIndex) => {
@@ -14,15 +17,38 @@ const Carousel = (props) => {
             setActiveIndex(newIndex);
         } 
     }
+    const inner = {
+        whiteSpace: 'nowrap',
+        transition: 'transform 0.3s',
+        transform: `translateX(${-((activeIndex * 45)- 25)}%)`
+    } 
 
-        const updateOpacity = (_activeIndex, index) => {
+    const setMobile = () => {
+        setShiftDist(50);
+        setShiftOffset(40);
+    }
+
+    const updateOpacity = (_activeIndex, index) => {
+        if (typeof window !== "undefined") {
+            if (window.matchMedia('(max-width: 1000px)').matches) {
+                console.log("screenless then 1000px");
+                inner.transform = `translateX(${-((activeIndex * 75.5) - 13)}%)`;
+
+            } else {
+                console.log("greater")
+            }
+        } else {
+            console.log("window not found")
+        }
+        
         if (_activeIndex == index) {
-            return 1.00;
+         return 1.00;
         } else {
             return .50; 
         }
     }
     
+
     return ( 
         <>
 
@@ -44,9 +70,9 @@ const Carousel = (props) => {
         </Row>
 
         <div className={styles.carousel}> 
-            <div className={styles.inner} style={{ transform: `translateX(${-((activeIndex * 45) - 27.5)}%)`}}> 
+            <div style={inner}> 
                 {React.Children.map(props.children, (child, index) => {
-                    return React.cloneElement(child, {width: '45%', _opacity: updateOpacity(activeIndex, index)} );
+                    return React.cloneElement(child, {_opacity: updateOpacity(activeIndex, index)} );
                 })}
             </div> 
         </div> 

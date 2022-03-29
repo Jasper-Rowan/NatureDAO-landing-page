@@ -15,17 +15,19 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    min-height: 40vh;
-    /* color: #fff; */
+    min-height: 45vh;
     transition: opacity 0.8s;
-    /* border: none;
+    width: 45%;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* border: solid;
     border-color: white; */
 }
 
 .carousel_tile {
     background-color: #292A47;
     min-height: 34vh;
-    width: 43vw;
+    width: max(43vw, 200px);
     border-radius: 40px;
     color: white; 
     text-align: center;
@@ -36,15 +38,15 @@
 
 .carousel_tile_title {
     margin-top: 30px;
-    font-size: larger;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .carousel_tile_body {
     white-space: normal;
-    font-size: max(16px, 2vmin);
-    margin: 20px;
-    margin-top: 40px;
+    font-size: max(12px, 2vmin);
+    margin: 5px;
+    margin-top: 20px;
 }
 
 .col {
@@ -66,14 +68,29 @@
     justify-content: center;
 }
 
-/* .indicators > Button {
-    margin: 5px; 
-} */
 
 @media (max-width: 767px) {
     .carousel_tile_title {
         font-size: 3vw;
         font-weight: bold;
+    }
+
+    .carousel_item {
+        width: 70%;  
+        height: 65vh;
+    }
+    .carousel_tile {
+        width: 68vw; 
+        height: 60vh;
+    }
+    .carousel_tile_title {
+        font-size: 20px;
+    }
+
+    .carousel_tile_body {
+        font-size: 18px;
+        margin-right: 10px;
+        margin-left: 10px;
     }
 
   }

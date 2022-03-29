@@ -1,5 +1,5 @@
 import styles from "../styles/components_styles/WhitepaperTile.module.css";
-import Image from 'next/image';
+
 
 const WhitepaperTile = (props) => {
     return (

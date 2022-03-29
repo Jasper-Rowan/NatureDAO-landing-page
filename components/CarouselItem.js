@@ -5,7 +5,7 @@ const CarouselItem = (props) => {
     
 
     return ( 
-        <div className={styles.carousel_item} style={{width : props.width, opacity: props._opacity}}>
+        <div className={styles.carousel_item} style={{opacity: props._opacity}}>
             {props.children}
         </div>
      );
