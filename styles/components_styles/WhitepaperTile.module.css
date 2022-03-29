@@ -21,10 +21,16 @@
   border-radius: 7%;
   margin: auto;
   margin-top: calc(1vh + 1vw);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
 }
 
-.image {
-  margin: auto;
+.Image {
+  /* height: 100%;
+  width: auto; */
+  /* background-size: contain; */
+ 
 }
 
 .h1 {

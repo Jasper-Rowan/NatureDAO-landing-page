@@ -3,7 +3,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 import styles from '../styles/NavBar.module.css';
-import Button from 'react-bootstrap/Button';
 
 function CustomNavbar() {
     return (
@@ -24,9 +23,9 @@ function CustomNavbar() {
               <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="/about">about</Nav.Link>
-                <Nav.Link href="/whitepaper">whitepaper</Nav.Link>
+                <Nav.Link href="/whitepaper">whitepapers</Nav.Link>
                 <Nav.Link href="/comingsoon">governance</Nav.Link>
-                <Nav.Link href="/comingsoon">audits</Nav.Link>
+                {/* <Nav.Link href="/comingsoon">audits</Nav.Link> */}
               </Nav>
                {/* <div className={styles.buttonBox}> <Button className={styles.button}> Connect Wallet </Button> </div>  */}
               </Navbar.Collapse>

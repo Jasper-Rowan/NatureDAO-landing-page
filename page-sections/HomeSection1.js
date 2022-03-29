@@ -2,7 +2,7 @@ import {Container, Row, Col, Button} from "react-bootstrap";
 import CountDownClock from "../components/CountDownClock";
 import CustomProgressBar from "../components/CustomProgressBar";
 import styles from "../styles/HomeSection/HomeSection1.module.css"
-import Image from 'next/image'
+import Image from 'next/image';
 
 const HomeSection1 = () => {
     

@@ -14,7 +14,7 @@ const WhitepaperSection1 = () => {
       // browser code
       window.open(directory)
     } else {
-      console.log("window not Found ")
+      console.log("indow not Found ")
     }
 
   }
@@ -33,21 +33,27 @@ const WhitepaperSection1 = () => {
           <Row className={styles.bottomRow}>
             <Col onClick={() => {showpdf('/Whitepaper.pdf');}} className={styles.col}>
               <WhitepaperTile
-                image_link={"/BlueIcon.svg"}
+                image_link={"/Sampling.png"}
+                width={1000}
+                height={1008}
                 h1="GreenVault - The Gold Standard of Crypto"
                 body="The paper outlining the architecture of the GreenVault solution and the various features that make it unique."
               />
             </Col>
             <Col onClick={() => {showpdf('/CONSERVATION_IMPACT.pdf');}} className={styles.col}>
               <WhitepaperTile
-                image_link={"/BlueIcon.svg"}
+                image_link={"/ConservationDocPhoto.png"}
+                width='1140'
+                height='759'
                 h1="Conservation Impact Summary"
                 body="The paper aims to capture and quantify the global impact of conservation through the GreenVault ORE Token."
               />
             </Col>
             <Col onClick={() => {showpdf('/GreenGold.pdf');}} className={styles.col}>
               <WhitepaperTile
-                image_link={"/BlueIcon.svg"}
+                image_link={"/WesternAus.png"}
+                width='792'
+                height='576'
                 h1="Green Gold - A new gold mining perspective"
                 body="The paper aims to capture and quantify the global impact of conservation through the GreenVault ORE Token."
               />
