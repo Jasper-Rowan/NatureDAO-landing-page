@@ -13,6 +13,7 @@ const HomeSection2 = () => {
             <Row className={styles.row1}>
               <h1 className={styles.title}>
                 <strong> WHAT IS GREENVAULT? </strong>
+                
               </h1>
             </Row>
             <Row>
