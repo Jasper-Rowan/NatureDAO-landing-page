@@ -16,7 +16,7 @@ const HomeSection3 = () => {
                         
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
-                    <Tile image_link={"/GreenIcon.svg"} heading={"Low transaction fees"} body={"Utilizing blockchain technologies keeps fees low"}/> 
+                    <Tile image_link={"/GreenIcon.svg"} heading={"Low transaction fees"} body={"Utilizing cutting edge Proof of Stake blockchain technologies keeps fees low. "}/> 
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
                     <Tile image_link={"/GrayIcon.svg"} heading={"Protect the environment"} body={"GreenVault has the infrastructure to protect millions of hectares of land"}/> 

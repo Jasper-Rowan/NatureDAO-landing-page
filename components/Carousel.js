@@ -1,15 +1,12 @@
 import React , { useState } from "react";
-import CarouselItem from "./CarouselItem";
 import styles from "../styles/components_styles/carousel.module.css";
-import { Button, Col, Row } from "react-bootstrap";
+import { Col, Row } from "react-bootstrap";
 
 
 const Carousel = (props) => {
 
 
-    const [activeIndex, setActiveIndex] = useState(1);
-    const [shiftDist, setShiftDist] = useState(45);
-    const [shiftOffset, setShiftOffset] = useState(25);
+    const [activeIndex, setActiveIndex] = useState(0);
 
 
     const updateIndex = (newIndex) => {
@@ -23,23 +20,7 @@ const Carousel = (props) => {
         transform: `translateX(${-((activeIndex * 45)- 25)}%)`
     } 
 
-    const setMobile = () => {
-        setShiftDist(50);
-        setShiftOffset(40);
-    }
-
     const updateOpacity = (_activeIndex, index) => {
-        if (typeof window !== "undefined") {
-            if (window.matchMedia('(max-width: 1000px)').matches) {
-                console.log("screenless then 1000px");
-                inner.transform = `translateX(${-((activeIndex * 75.5) - 13)}%)`;
-
-            } else {
-                console.log("greater")
-            }
-        } else {
-            console.log("window not found")
-        }
         
         if (_activeIndex == index) {
          return 1.00;
@@ -47,9 +28,18 @@ const Carousel = (props) => {
             return .50; 
         }
     }
-    
+
+    if (typeof window !== "undefined") {
+        if (window.matchMedia('(max-width: 767px)').matches) {
+            inner.transform = `translateX(${-((activeIndex * 75.5) - 13)}%)`;
+
+        } else {
+            inner.transform = `translateX(${-((activeIndex * 45)- 25)}%)`;
+        }
+    }
 
     return ( 
+
         <>
 
         <Row className={styles.row}>
