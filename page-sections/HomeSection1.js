@@ -18,7 +18,7 @@ const HomeSection1 = () => {
                     <span style={{ color: "rgba(135,205,155)" }}>
                       carbon-negative
                     </span>{" "}
-                    cryptocurrency backed by{" "}
+                    cryptocurrency backed by{" "} <br/> 
                     <span style={{ color: "rgba(224,199,90)" }}>
                       Gold conservation
                     </span>
