@@ -9,7 +9,7 @@ const HomeSection1 = () => {
     
       return (
         <>
-          <Container className={styles.container} fluid>
+          <Container className={styles.container}  fluid>
             <Row className={styles.row}>
               <Col xl={8} xs={12} className={styles.left_col}>
                 <div className={styles.group1}>
