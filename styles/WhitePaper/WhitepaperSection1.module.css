@@ -1,5 +1,5 @@
 .container {
-  height: calc(100vh - 57px);
+  min-height: calc(100vh - 57px);
     /* border: solid blue; */
     display: flex;
     flex-direction: column;
@@ -8,10 +8,7 @@
 }
 
 .topRow {
-  /* border: solid red;
-  background-color: rgb(192, 144, 82); */
-  width: 100vw;
-  /* margin: auto; */
+  /* border: solid red; */
   color: white;
   text-align: center;
   display: flex;
@@ -29,8 +26,7 @@
 }
 
 .bottomRow {
-  /* border: solid red;
-  background-color: rgb(192, 144, 82); */
+  /* border: solid red; */
   color: white;
   height: 63%;
 }
