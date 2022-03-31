@@ -3,7 +3,6 @@
   margin: 2vh;
   margin-top: 2vh;
   border-radius: 20px;
-  /* border: solid red; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -15,29 +14,23 @@
 }
 
 .imgDiv {
+  border: solid #201F3A;
   height: calc(11vh + 11vw);
   width: calc(11vh + 11vw);
   background: #201F3A;
   border-radius: 7%;
   margin: auto;
   margin-top: calc(1vh + 1vw);
+  margin-bottom: calc(1vh + 1vw);
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
 
-.Image {
-  /* height: 100%;
-  width: auto; */
-  /* background-size: contain; */
- 
-}
-
 .h1 {
-  /* margin: auto; */
   color: white; 
   font-weight: 600;
-  font-size: 2.5vh;
+  font-size: max(14px, 2.5vh);
   text-align: center;
 }
 
