@@ -12,7 +12,7 @@ const HomeSection3 = () => {
 
             <Row className={styles.row2}>
                 <Col lg={3} md={6} className={styles.col}> 
-                    <Tile image_link={"/BlueIcon.svg"} heading={"Liquidating Unmined Gold"} body={"Unmined gold has never had a simple investment vechicle until now"}/> 
+                    <Tile image_link={"/BlueIcon.svg"} heading={"Liquidating Unmined Gold"} body={"Unmined gold has never had a simple investment vehicle until now"}/> 
                         
                 </Col> 
                 <Col lg={3} md={6} className={styles.col}> 
