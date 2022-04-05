@@ -37,6 +37,10 @@
   margin-bottom: 4%;
 }
 
+.visibleXS {
+  display: none;
+}
+
 .p {
   font-family: 'Montserrat', sans-serif;
   font-style: normal;
@@ -116,6 +120,10 @@
   
   .h1 {
     font-size: 8vw;
+  }
+
+  .visibleXS {
+    display: inline;
   }
 
   .p {

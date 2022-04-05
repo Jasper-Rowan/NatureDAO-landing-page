@@ -14,11 +14,12 @@ const HomeSection1 = () => {
               <Col xl={8} xs={12} className={styles.left_col}>
                 <div className={styles.group1}>
                   <h1 className={styles.h1}>
-                  ORE, the{" "}
+                    ORE, the <br className={styles.visibleXS} />
                     <span style={{ color: "rgba(135,205,155)" }}>
                       carbon-negative
                     </span>{" "}
-                    cryptocurrency backed by{" "} <br/> 
+                    cryptocurrency <br className={styles.visibleXS} /> backed by{" "}
+                    <br />
                     <span style={{ color: "rgba(224,199,90)" }}>
                       Gold conservation
                     </span>
@@ -26,7 +27,7 @@ const HomeSection1 = () => {
                   <p className={styles.p}>
                     The <strong>$500 billion</strong> industry of impact
                     investors has only one way to gain exposure to the{" "}
-                    <strong>$10 trillion</strong> gold market: {" "}
+                    <strong>$10 trillion</strong> gold market:{" "}
                     <strong>GreenVault ORE</strong>. The first carbon-negative
                     currency backed by the conservation of gold mines.
                     GreenVault aims to overtake gold ETFs as the premier vehicle
@@ -42,11 +43,7 @@ const HomeSection1 = () => {
               </Col>
               <Col xl={true} xs={12} className={styles.right_col}>
                 <div className={styles.imgContainer}>
-                  <Image
-                    src="/GoldGif.gif"
-                    width={1920}
-                    height={1080}
-                  />
+                  <Image src="/GoldGif.gif" width={1920} height={1080} />
                 </div>
                 <div className={styles.clockContainer}>
                   <CountDownClock />

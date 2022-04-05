@@ -3,7 +3,7 @@ import styles from "../styles/components_styles/WhitepaperTile.module.css";
 
 const WhitepaperTile = (props) => {
     return (
-      <div className={styles.tile}>
+      <div  className={styles.tile}>
         <div className={styles.imgDiv}>
           <img className={styles.image} src={props.image_link} />
         </div>
