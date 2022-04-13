@@ -33,7 +33,7 @@ const Homesection4 = () => {
             <CarouselItem>
               <CarouselTile
                 title="GREENVAULT"
-                body="The ORE token brings verified precious metals on chain before they are mined, offering a carbon-negative alternative to gold ETFs."
+                body="The ORE token brings verified precious metals on chain before they are mined, offering a carbon-neutral alternative to gold ETFs."
               />
             </CarouselItem>
           </Carousel>

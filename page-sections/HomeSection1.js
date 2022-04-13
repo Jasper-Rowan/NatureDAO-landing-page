@@ -16,7 +16,7 @@ const HomeSection1 = () => {
                   <h1 className={styles.h1}>
                     ORE, the <br className={styles.visibleXS} />
                     <span style={{ color: "rgba(135,205,155)" }}>
-                      carbon-negative
+                      carbon-neutral
                     </span>{" "}
                     cryptocurrency <br className={styles.visibleXS} /> backed by{" "}
                     <br />
@@ -28,7 +28,7 @@ const HomeSection1 = () => {
                     The <strong>$500 billion</strong> industry of impact
                     investors has only one way to gain exposure to the{" "}
                     <strong>$10 trillion</strong> gold market:{" "}
-                    <strong>GreenVault ORE</strong>. The first carbon-negative
+                    <strong>GreenVault ORE</strong>. The first carbon-neutral
                     currency backed by the conservation of gold mines.
                     GreenVault aims to overtake gold ETFs as the premier vehicle
                     to trade gold.
