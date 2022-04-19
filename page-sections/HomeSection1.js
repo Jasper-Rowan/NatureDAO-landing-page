@@ -28,10 +28,10 @@ const HomeSection1 = () => {
                     The <strong>$500 billion</strong> industry of impact
                     investors has only one way to gain exposure to the{" "}
                     <strong>$10 trillion</strong> gold market:{" "}
-                    <strong>GreenVault ORE</strong>. The first carbon-neutral
-                    currency backed by the conservation of gold mines.
-                    GreenVault aims to overtake gold ETFs as the premier vehicle
-                    to trade gold.
+                    <strong>GreenVault ORE</strong>. ORE will incentivize a
+                    sustainable revolution in the mining industry by tokenizing
+                    gold preserved in its <strong>natural</strong> deposit. <br /> <br /> GreenVault aims to
+                    overtake gold ETFs as the premier vehicle to trade gold.
                   </p>
                   <Button className={styles.joinButton} href="#bottom">
                     Enter the Vault
