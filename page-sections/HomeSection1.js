@@ -31,7 +31,7 @@ const HomeSection1 = () => {
                     <strong>GreenVault ORE</strong>. ORE will incentivize a
                     sustainable revolution in the mining industry by tokenizing
                     gold preserved in its <strong>natural</strong> deposit. <br /> <br /> GreenVault aims to
-                    overtake gold ETFs as the premier vehicle to trade gold.
+                    capture all future gold that would otherwise end up in ETFs and bank vaults.
                   </p>
                   <Button className={styles.joinButton} href="#bottom">
                     Enter the Vault
