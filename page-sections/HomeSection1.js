@@ -38,7 +38,7 @@ const HomeSection1 = () => {
                   </Button>
                 </div>
                 <div className={styles.progressBar}>
-                  <CustomProgressBar bgcolor="#3772FF" completed={35} />
+                  <CustomProgressBar bgcolor="#3772FF" completed={20} />
                 </div>
               </Col>
               <Col xl={true} xs={12} className={styles.right_col}>
