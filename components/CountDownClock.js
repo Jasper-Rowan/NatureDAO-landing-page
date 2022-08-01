@@ -9,7 +9,17 @@ import styles from '../styles/CountDownClock.module.css';
 const CountDownClock = () => {
     // Component rendered when timer reaches 0
     // TODO: style this nicly
-    const Completionist = () => <span>Launched!</span>;
+    const Completionist = () => {
+      return <>
+          <div className={styles.divContainer}>
+            <p className={styles.p}>ORE token launch date:</p>
+            <span className={styles.span}>
+            COMING SOON!
+            </span>
+          </div>
+      </>
+    }
+    
 
     const renderer = ({ days, hours, minutes, seconds, completed }) => {
       if (completed) {
@@ -39,7 +49,7 @@ const CountDownClock = () => {
 
     return (
         // The date format is 'year-month-day T hour:min:sec'
-        <Countdown date={'2022-08-07T00:00:00'} renderer={renderer} />
+        <Countdown date={'2021-08-07T00:00:00'} renderer={renderer} />
     );
 }
  
